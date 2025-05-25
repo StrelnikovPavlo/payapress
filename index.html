@@ -1,11 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="ua">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1747725294895"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1747725294895">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1748214783886"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/app.min.js?v=1748214783886">
+		<link rel="modulepreload" crossorigin="" href="./js/about.min.js?v=1748214783886">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1748214783886">
+		<link rel="stylesheet" crossorigin="" href="./css/about.min.css?v=1748214783886">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1748214783886">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -20,7 +24,9 @@
 						<img width="300px" alt="Logo" src="./assets/img/logo.webp">
 					</a>
 					<div data-fls-dynamic=".menu__body, 991.98, last" class="header__products">
-						<span class="header__products--label">Продукція</span>
+						<span class="header__products-line--left"></span>
+						<span class="header__products-line--right"></span>
+						<span class="header__products-label">Продукція</span>
 						<ul class="header__products-list">
 							<li class="header__products-item">
 								<a href="#">CNC Busbar Machine</a>
@@ -97,41 +103,532 @@
 				</div>
 			</header>
 			<main class="page page--home">
-				<section class="hero">
-					<div class="hero__nav">
-						<button class="hero__nav-btn hero__nav-btn--left btn nav-btn swiper-button-prev">
-							<svg style="width: 16; height: 12px">
+				<section class="hero bg">
+					<div data-fls-nav="" class="hero__nav">
+						<button class="hero__nav-btn hero__nav-btn--left nav-btn swiper-button-prev">
+							<svg style="width: 20px; height: 18px">
 								<use xlink:href="./assets/img/spritemap.svg#sprite-nav-left"></use>
 							</svg>
 						</button>
-						<button class="hero__nav-btn hero__nav-btn--right btn nav-btn swiper-button-next">
-							<svg style="width: 16; height: 12px">
+						<button class="hero__nav-btn hero__nav-btn--right nav-btn swiper-button-next">
+							<svg style="width: 20px; height: 18px">
 								<use xlink:href="./assets/img/spritemap.svg#sprite-nav-right"></use>
 							</svg>
 						</button>
 					</div>
 					<div class="hero__container">
 						<div class="hero__slider swiper">
-							<div class="hero__wrapper swiper-wrapper">
+							<div data-fls-slider="" class="hero__wrapper swiper-wrapper">
 								<div class="hero__slide swiper-slide">
-									<div class="hero__content">
+									<div data-fls-title="" class="hero__content">
 										<div class="hero__subtitle subtitle">Верстат для виробництва шин з ЧПУ</div>
 										<h1 class="hero__title title">Ми робимо якість</h1>
 										<p class="hero__text">
 											Сім інструментальних станцій, що працюють з шинами довжиною 4 метри і товщиною 15 мм. Надзвичайна міцність і неперевершена швидкість, повністю автоматизовані, забезпечують широкий діапазон різних розмірів отворів, висока якість
 										</p>
 										<div class="hero__actions">
-											<a href="#" class="hero__button btn-primary btn">Отримати пропозицію</a>
-											<a href="#" class="hero__button btn-secondary btn">Докладніше</a>
+											<a href="#" class="hero__button btn btn-primary-red">Отримати пропозицію</a>
+											<a href="#" class="hero__button btn btn-primary-white">Докладніше</a>
 										</div>
 									</div>
 									<div class="hero__img">
-										<img alt="Image" src="./assets/img/hero.webp">
+										<img alt="Image" src="./assets/img/hero/01.webp">
+									</div>
+								</div>
+								<div class="hero__slide swiper-slide">
+									<div data-fls-title="" class="hero__content">
+										<div class="hero__subtitle subtitle">Верстат для виробництва шин з ЧПУ</div>
+										<h1 class="hero__title title">Ми робимо якість</h1>
+										<p class="hero__text">
+											Сім інструментальних станцій, що працюють з шинами довжиною 4 метри і товщиною 15 мм. Надзвичайна міцність і неперевершена швидкість,
+										</p>
+										<div data-fls-button="" class="hero__actions">
+											<a href="#" class="hero__button btn btn-primary-red">Отримати пропозицію</a>
+											<a href="#" class="hero__button btn btn-primary-white">Докладніше</a>
+										</div>
+									</div>
+									<div class="hero__img">
+										<img alt="Image" src="./assets/img/hero/01.webp">
 									</div>
 								</div>
 							</div>
 							<div class="swiper-pagination"></div>
 						</div>
+					</div>
+				</section>
+				<section class="features bg">
+					<div class="features__container">
+						<h2 data-fls-title="" class="features__title title">
+							Чому
+							<br>
+							нас обирають
+						</h2>
+						<div class="features__grid">
+							<div class="feature feature--1">
+								<div class="feature__inner">
+									<div class="feature__icon">
+										<svg>
+											<use xlink:href="./assets/img/spritemap.svg#sprite-warranty"></use>
+										</svg>
+									</div>
+									<div class="feature__content">
+										<h3 class="feature__title">Гарантія 12 місяців</h3>
+										<div class="feature__desc">На наші машини надається річна гарантія від виробника.</div>
+									</div>
+								</div>
+								<span class="feature__diamond"></span>
+							</div>
+							<div class="feature feature--2">
+								<div class="feature__inner">
+									<div class="feature__icon">
+										<svg>
+											<use xlink:href="./assets/img/spritemap.svg#sprite-service"></use>
+										</svg>
+									</div>
+									<div class="feature__content">
+										<h3 class="feature__title">10 років Післяпродажне обслуговування</h3>
+										<div class="feature__desc">Ми надамо нашим клієнтам 10 років післяпродажного обслуговування.</div>
+									</div>
+								</div>
+								<span class="feature__diamond"></span>
+							</div>
+							<div class="feature feature--3">
+								<div class="feature__inner">
+									<div class="feature__icon">
+										<svg>
+											<use xlink:href="./assets/img/spritemap.svg#sprite-technic"></use>
+										</svg>
+									</div>
+									<div class="feature__content">
+										<h3 class="feature__title">
+											Оснащений
+											<br>
+											Індустрія 4.0
+										</h3>
+										<div class="feature__desc">Всі машини оснащені технологією Індустрії 4.0.</div>
+									</div>
+								</div>
+								<span class="feature__diamond"></span>
+							</div>
+							<div class="feature feature--4">
+								<div class="feature__inner">
+									<div class="feature__icon">
+										<svg>
+											<use xlink:href="./assets/img/spritemap.svg#sprite-sertificate"></use>
+										</svg>
+									</div>
+									<div class="feature__content">
+										<h3 class="feature__title">
+											CE
+											<br>
+											Сертифікат
+										</h3>
+										<div class="feature__desc">Наша компанія підтверджує відповідність товару європейським стандартам.</div>
+									</div>
+								</div>
+								<span class="feature__diamond"></span>
+							</div>
+							<div class="feature feature--5">
+								<div class="feature__inner">
+									<div class="feature__icon">
+										<svg>
+											<use xlink:href="./assets/img/spritemap.svg#sprite-car"></use>
+										</svg>
+									</div>
+									<div class="feature__content">
+										<h3 class="feature__title">
+											Логістичні
+											<br>
+											рішення
+										</h3>
+										<div class="feature__desc">Компанія PAYAPRESS доставить апарати на умовах CPT.</div>
+									</div>
+								</div>
+								<span class="feature__diamond"></span>
+							</div>
+							<div class="feature feature--6">
+								<div class="feature__inner">
+									<div class="feature__icon">
+										<svg>
+											<use xlink:href="./assets/img/spritemap.svg#sprite-settings"></use>
+										</svg>
+									</div>
+									<div class="feature__content">
+										<h3 class="feature__title">
+											Налаштування
+											<br>
+											станків
+										</h3>
+										<div class="feature__desc">Ми готові кастомізувати машини на замовлення клієнта.</div>
+									</div>
+								</div>
+								<span class="feature__diamond"></span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="catalog">
+					<div class="catalog__container">
+						<div class="catalog__head">
+							<div data-fls-title="" class="catalog__caption">
+								<h2 class="catalog__title title">Широкий асортимент</h2>
+								<div class="catalog__subtitle subtitle">верстатів для обробки шин</div>
+							</div>
+							<a href="#" class="catalog__download btn btn-primary-red">
+								<svg>
+									<use xlink:href="./assets/img/spritemap.svg#sprite-download"></use>
+								</svg>
+								<span>Завантажити каталог</span>
+							</a>
+						</div>
+						<div class="catalog__content">
+							<div class="catalog__line catalog__line_left"></div>
+							<a href="#" class="catalog__item catalog__item_red">
+								<span>Верстати для обробки шин</span>
+							</a>
+							<a href="#" class="catalog__item">
+								<img alt="Image" src="./assets/img/catalog/01.webp">
+								<span>Верстат для різання DIN-рейки</span>
+							</a>
+							<a href="#" class="catalog__item">
+								<img alt="Image" src="./assets/img/catalog/01.webp">
+								<span>Верстат для різання перфокоробу</span>
+							</a>
+							<a href="#" class="catalog__item">
+								<img alt="Image" src="./assets/img/catalog/03.webp">
+								<span>Штампувальні верстати</span>
+							</a>
+							<div class="catalog__line catalog__line_right"></div>
+						</div>
+					</div>
+				</section>
+				<section class="achievement bg">
+					<div class="achievement__container">
+						<div data-fls-title="" class="achievement__head">
+							<h2 class="achievement__title title">Наші досягнення</h2>
+							<a href="#" class="achievement__link btn btn-primary-white">Про компанію</a>
+						</div>
+						<div class="achievement__content">
+							<div class="block-achievement block-achievement--1">
+								<div class="block-achievement__number">
+									68
+									<span>+</span>
+								</div>
+								<div class="block-achievement__label">Івентів</div>
+								<div class="block-achievement__progress"></div>
+							</div>
+							<div data-fls-dynamic=".achievement__content, 767.98, last" class="block-achievement block-achievement--2">
+								<div class="block-achievement__number">
+									1140
+									<span>+</span>
+								</div>
+								<div class="block-achievement__label">Задоволених клієнтів</div>
+								<div class="block-achievement__progress"></div>
+							</div>
+							<div class="block-achievement block-achievement--3">
+								<div class="block-achievement__number">74</div>
+								<div class="block-achievement__label">Райони експорту</div>
+								<div class="block-achievement__progress"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="our-products bg">
+					<div class="our-products__container">
+						<div data-fls-title="" class="our-products__head">
+							<h2 class="our-products__title title">Наша продукція</h2>
+							<a href="#" class="our-products__link btn btn-primary-white">Переглянути</a>
+						</div>
+						<div class="our-products__body">
+							<div data-fls-slider="" class="our-products__slider swiper">
+								<div class="our-products__wrapper swiper-wrapper">
+									<div class="product-card swiper-slide">
+										<div class="product-card__inner">
+											<a href="#" class="product-card__image">
+												<img alt="" src="./assets/img/products/01.webp">
+											</a>
+											<div class="product-card__content">
+												<div class="product-card__block">
+													<div class="product-card__label">Модель:</div>
+													<a href="#" class="product-card__model">HBC-PC120</a>
+													<a href="#" class="product-card__title">Верстат для обробки шин</a>
+												</div>
+												<div class="product-card__block">
+													<div class="product-card__desc">
+														<span>Функції:</span>
+														<span>
+															Різання, штампування та згинання шин по одній. Обтискання/різання кабелю (опціонально)
+														</span>
+													</div>
+												</div>
+											</div>
+											<span class="product-card__line product-card__line-left"></span>
+											<span class="product-card__line product-card__line-right"></span>
+										</div>
+									</div>
+									<div class="product-card swiper-slide">
+										<div class="product-card__inner">
+											<a href="#" class="product-card__image">
+												<img alt="" src="./assets/img/products/01.webp">
+											</a>
+											<div class="product-card__content">
+												<div class="product-card__block">
+													<div class="product-card__label">Модель:</div>
+													<a href="#" class="product-card__model">HBC-PC120</a>
+													<a href="#" class="product-card__title">Верстат для обробки шин</a>
+												</div>
+												<div class="product-card__block">
+													<div class="product-card__desc">
+														<span>Функції:</span>
+														<span>
+															Різання, штампування та згинання шин по одній. Обтискання/різання кабелю (опціонально)
+														</span>
+													</div>
+												</div>
+											</div>
+											<span class="product-card__line product-card__line-left"></span>
+											<span class="product-card__line product-card__line-right"></span>
+										</div>
+									</div>
+									<div class="product-card swiper-slide">
+										<div class="product-card__inner">
+											<a href="#" class="product-card__image">
+												<img alt="" src="./assets/img/products/01.webp">
+											</a>
+											<div class="product-card__content">
+												<div class="product-card__block">
+													<div class="product-card__label">Модель:</div>
+													<a href="#" class="product-card__model">HBC-PC120</a>
+													<a href="#" class="product-card__title">Верстат для обробки шин</a>
+												</div>
+												<div class="product-card__block">
+													<div class="product-card__desc">
+														<span>Функції:</span>
+														<span>
+															Різання, штампування та згинання шин по одній. Обтискання/різання кабелю (опціонально)
+														</span>
+													</div>
+												</div>
+											</div>
+											<span class="product-card__line product-card__line-left"></span>
+											<span class="product-card__line product-card__line-right"></span>
+										</div>
+									</div>
+									<div class="product-card swiper-slide">
+										<div class="product-card__inner">
+											<a href="#" class="product-card__image">
+												<img alt="" src="./assets/img/products/01.webp">
+											</a>
+											<div class="product-card__content">
+												<div class="product-card__block">
+													<div class="product-card__label">Модель:</div>
+													<a href="#" class="product-card__model">HBC-PC120</a>
+													<a href="#" class="product-card__title">Верстат для обробки шин</a>
+												</div>
+												<div class="product-card__block">
+													<div class="product-card__desc">
+														<span>Функції:</span>
+														<span>
+															Різання, штампування та згинання шин по одній. Обтискання/різання кабелю (опціонально)
+														</span>
+													</div>
+												</div>
+											</div>
+											<span class="product-card__line product-card__line-left"></span>
+											<span class="product-card__line product-card__line-right"></span>
+										</div>
+									</div>
+								</div>
+								<div class="our-products__pagination swiper-pagination"></div>
+								<div data-fls-nav="" class="our-products__nav">
+									<button class="our-products__nav-btn our-products__nav-btn--left nav-btn">
+										<svg style="width: 20px; height: 18px">
+											<use xlink:href="./assets/img/spritemap.svg#sprite-nav-left"></use>
+										</svg>
+									</button>
+									<button class="our-products__nav-btn our-products__nav-btn--right nav-btn">
+										<svg style="width: 20px; height: 18px">
+											<use xlink:href="./assets/img/spritemap.svg#sprite-nav-right"></use>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="solutions bg">
+					<div class="solutions__container">
+						<div class="solutions__title">
+							<h2 class="solutions__title-value title">Наші Рішення</h2>
+							<a href="#" class="solutions__link btn btn-primary-red">Отримати пропозицію</a>
+						</div>
+						<div class="solutions__content">
+							<div class="solutions__block">
+								<div class="solutions__block-title">Шинопроводи розподільчих пристроїв</div>
+								<div class="solutions__block-text">
+									Шинопроводи розподільчого пристрою передають живлення від зовнішніх фідерів до всіх ланцюгів захисту від перевантаження по струму, які містяться в установці. Електричні шинопроводи забезпечують високий рівень безпеки та зручності. Використання мідних шинопроводів пропонує численні переваги для електричних щитових систем, такі як компактна конструкція, яка вимагає менше місця, ніж традиційні кабельні системи
+								</div>
+							</div>
+							<div class="solutions__block">
+								<div class="solutions__block-title">Як ми допомагаємо?</div>
+								<div class="solutions__block-text">
+									Зараз наша компанія допомагає виробникам розподільчих пристроїв та електричних панелей створювати зручні продукти. Наш тип машин відіграє дуже важливу роль у процесі виробництва шинних розподільчих пристроїв і панелей. За допомогою наших пристроїв виробники зможуть мати точні мідні згини, розрізи та перфорації на мідних шинах, щоб правильно встановити їх у своїх виробах.
+								</div>
+							</div>
+							<div class="solutions__block">
+								<div class="solutions__block-title">Чому саме ми?</div>
+								<div class="solutions__block-text">
+									Компанія PAYAPRESS має найширший асортимент шинопроводів серед усіх виробників, від пробивних і згинальних верстатів для алюмінієвих і мідних шин і листових металів до верстатів для різання шин з ЧПУ, що дає своїм клієнтам більше можливостей для вибору правильного верстата для своєї сфери роботи. Наша компанія також готова виконати індивідуальні замовлення
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="partners">
+					<div class="partners__container">
+						<div class="partners__head">
+							<h2 class="partners__title title">Наші партнери</h2>
+							<div class="partners__desc">
+								<div class="partners__desc-text">
+									Як виробники обладнання для обробки шин і листового штампування, ми, разом з нашими партнерами, допоможемо вам знайти рішення для обробки шин.
+								</div>
+								<a href="#" class="partners__link btn btn-primary-white">Всі партнери</a>
+							</div>
+						</div>
+						<div class="partners__items">
+							<div class="partners__item">
+								<img alt="" src="./assets/img/partners/siemens.webp">
+							</div>
+							<div class="partners__item">
+								<img alt="" src="./assets/img/partners/abb.webp">
+							</div>
+							<div class="partners__item">
+								<img alt="" src="./assets/img/partners/general-electric.webp">
+							</div>
+							<div class="partners__item">
+								<img alt="" src="./assets/img/partners/alstom.webp">
+							</div>
+							<div class="partners__item">
+								<img alt="" src="./assets/img/partners/schnieder.webp">
+							</div>
+							<div class="partners__item">
+								<img alt="" src="./assets/img/partners/eaton.webp">
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="offer-form">
+					<div class="offer-form__container">
+						<div class="offer-form__content">
+							<div class="offer-form__info">
+								<h2 class="offer-form__title">Отримайте персональну пропозицію</h2>
+								<div class="offer-form__text">
+									Заповніть форму і з вами зв’яжеться наш менеджер для уточнення деталей, після чого ми підготуємо персональну пропозицію саме під ваші потреби
+								</div>
+							</div>
+							<div class="offer-form__body">
+								<div class="offer-form__fields">
+									<div class="offer-form__row">
+										<div class="offer-form__input">
+											<label class="offer-form__label">Ім’я *</label>
+											<input required data-fls-input="" autocomplete="off" type="text" name="form[username]" data-error="Помилка" placeholder="Ваше ім’я" class="input">
+										</div>
+										<div class="offer-form__input">
+											<label class="offer-form__label">Прізвище *</label>
+											<input required data-fls-input="" autocomplete="off" type="text" name="form[surname]" data-error="Помилка" placeholder="Ваше прізвище" class="input">
+										</div>
+									</div>
+									<div class="offer-form__row">
+										<div class="offer-form__input">
+											<label class="offer-form__label">Телефон *</label>
+											<input required data-fls-input="" autocomplete="off" type="number" name="form[phone]" data-error="Помилка" placeholder="+38" class="input">
+										</div>
+										<div class="offer-form__input">
+											<label class="offer-form__label">Оберіть моделі *</label>
+											<select name="model" data-fls-select="" data-fls-select-checkbox="">
+												<option value="1" selected>HBC-PC120</option>
+												<option value="2">HBC-B120 ES/EH</option>
+												<option value="3">HBC-B120 ES/EH</option>
+												<option value="4">HBC-B120 ES/EH</option>
+												<option value="5">HBC-B120 ES/EH</option>
+												<option value="6">HBC-B120 ES/EH</option>
+												<option value="7">HBC-B120 ES/EH</option>
+											</select>
+										</div>
+									</div>
+									<div class="offer-form__input">
+										<label class="offer-form__label">Коментар</label>
+										<textarea data-fls-input="" name="comments" placeholder="Надайте додаткову інформацію по вашому запиту, або залиште це поле пустим" class="input"></textarea>
+									</div>
+								</div>
+								<div class="offer-form__actions">
+									<label class="offer-form__label" data-fls-checkbox="">
+										<input data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[policy]">
+										<span class="checkbox__text">Я ознайомлений з політикою обробки персональних даних</span>
+									</label>
+									<button data-fls-button="" class="offer-form__submit btn btn-white">Надіслати</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="about">
+					<div data-fls-showmore="" class="about__container">
+						<div data-fls-showmore-content="430" class="about__content content-text">
+							<h1>
+								PAYAPRESS – лідер у виробництві верстатів для обробки шинопроводів та листового металу
+							</h1>
+							<h2>PAYAPRESS — провідний виробник обладнання для обробки шинопроводів</h2>
+							<p>
+								<strong>PAYAPRESS</strong>
+								— провідний виробник обладнання для обробки шинопроводів та листового металу, який спеціалізується на розробці та виготовленні високоякісних верстатів для згинання, пробивання та різання мідних та алюмінієвих шин.
+								<u>
+									Наша продукція включає гідравлічні верстати для згинання шин, верстати для пробивання отворів, верстати для різання шин, універсальні верстати "3 в 1", а також ЧПК верстати для обробки шинопроводів.
+								</u>
+								Ми також пропонуємо автоматичні та напівавтоматичні верстати для пробивання листового металу, що дозволяють ефективно та точно виконувати операції з обробки металевих деталей.
+							</p>
+							<h3>PAYAPRESS — провідний виробник обладнання для обробки шинопроводів</h3>
+							<p>
+								Наші верстати відзначаються високою точністю та надійністю, що забезпечує бездоганну якість обробки шинопроводів та листового металу. Ми постійно впроваджуємо новітні технології, щоб відповідати сучасним вимогам ринку та забезпечувати наших клієнтів найкращими рішеннями для їхнього бізнесу. PAYAPRESS пропонує широкий асортимент обладнання, що дозволяє обрати оптимальний варіант для будь-яких виробничих потреб.
+							</p>
+							<p>
+								Ми пишаємося тим, що наші верстати оснащені передовими технологіями, такими як програмовані упори для точного позиціонування отворів, системи компенсації пружного відскоку для забезпечення точності згинання та цифрові індикатори кута згину для досягнення ідеальних результатів. Крім того, всі наші машини підтримують технологію Industry 4.0, що дозволяє отримувати зворотний зв'язок від обладнання та оперативно вирішувати будь-які питання, які можуть виникнути під час експлуатації.
+							</p>
+							<p>
+								PAYAPRESS активно співпрацює з виробниками електрощитового обладнання та панелей управління по всьому світу, допомагаючи їм досягати високої якості продукції завдяки нашим високоточним та надійним верстатам. Ми прагнемо забезпечити наших клієнтів обладнанням, яке відповідає їхнім потребам та перевищує їхні очікування.
+							</p>
+							<p>
+								Наша компанія надає 12-місячну гарантію на всі верстати, а також забезпечує 10-річне післяпродажне обслуговування, що свідчить про нашу впевненість у якості та довговічності нашої продукції. Ми також готові розробляти та виготовляти індивідуальні верстати відповідно до специфічних вимог клієнтів, забезпечуючи повну відповідність обладнання їхнім виробничим потребам.
+							</p>
+							<p>
+								PAYAPRESS має широку мережу представництв та дистриб'юторів у різних країнах, що дозволяє нам оперативно реагувати на запити клієнтів та забезпечувати своєчасну доставку обладнання. Ми прагнемо бути надійним партнером для наших клієнтів, пропонуючи їм високоякісні рішення для обробки шинопроводів та листового металу.
+							</p>
+							<p>
+								Обираючи PAYAPRESS, ви отримуєте не лише високоякісне обладнання, але й професійну підтримку на всіх етапах співпраці — від вибору оптимального верстата до його впровадження та обслуговування. Ми завжди готові надати консультації та технічну підтримку, щоб забезпечити максимальну ефективність вашого виробництва.
+							</p>
+							<p>
+								PAYAPRESS — ваш надійний партнер у сфері обробки шинопроводів та листового металу, який допоможе вивести ваше виробництво на новий рівень якості та ефективності.
+							</p>
+							<h4>PAYAPRESS — провідний виробник обладнання для обробки шинопроводів</h4>
+							<ul>
+								<li>
+									Висока точність та надійність – наші верстати забезпечують ідеальну обробку шинопроводів і листового металу.
+								</li>
+								<li>
+									Сучасні технології – ЧПК управління, автоматизовані системи та підтримка Industry 4.0.
+								</li>
+								<li>
+									Широкий асортимент – згинальні, пробивні, різальні верстати, а також комплексні рішення "3 в 1".
+								</li>
+								<li>Гарантія якості – 12 місяців гарантії та 10-річне післяпродажне обслуговування.</li>
+								<li>Індивідуальні рішення – розробка обладнання під конкретні виробничі потреби.</li>
+								<li>Глобальна присутність – мережа дистриб’юторів у різних країнах світу.</li>
+							</ul>
+						</div>
+						<button data-fls-button="" data-fls-showmore-button="1000" class="about__show-more btn btn-primary-red">
+							<span>Показати ще</span>
+							<span>Приховати текст</span>
+						</button>
 					</div>
 				</section>
 			</main>
