@@ -4982,8 +4982,8 @@ function initSliders() {
       on: {}
     });
   }
-  if (document.querySelector(".our-products__slider ")) {
-    new Swiper(".our-products__slider ", {
+  if (document.querySelector(".slider__inner")) {
+    new Swiper(".slider__inner ", {
       modules: [Navigation, Pagination],
       observer: true,
       observeParents: true,
@@ -5000,8 +5000,8 @@ function initSliders() {
       },
       // Кнопки "вліво/вправо"
       navigation: {
-        prevEl: ".our-products__navigation-button--left",
-        nextEl: ".our-products__navigation-button--right"
+        prevEl: ".slider__navigation-button--left",
+        nextEl: ".slider__navigation-button--right"
       },
       // Брейкпоінти
       breakpoints: {
@@ -5022,8 +5022,54 @@ function initSliders() {
         },
         1150: {
           centeredSlides: false,
-          slidesPerView: 3
+          slidesPerView: 3,
+          spaceBetween: 24
         }
+      },
+      // Події
+      on: {}
+    });
+  }
+  if (document.querySelector(".contacts__slider")) {
+    new Swiper(".contacts__slider", {
+      modules: [Navigation, Pagination],
+      observer: true,
+      observeParents: true,
+      slidesPerView: 1,
+      spaceBetween: 8,
+      autoHeight: false,
+      speed: 400,
+      //lazy: true,
+      // Пагінація
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      // Кнопки "вліво/вправо"
+      navigation: {
+        prevEl: ".contacts__navigation-button--left",
+        nextEl: ".contacts__navigation-button--right"
+      },
+      // Брейкпоінти
+      breakpoints: {
+        479.98: {
+          slidesPerView: 2,
+          spaceBetween: 24
+        }
+        // 600: {
+        // 	slidesPerView: 1.9,
+        // 	spaceBetween: 8,
+        // 	centeredSlides: true,
+        // },
+        // 768: {
+        // 	slidesPerView: 2,
+        // 	spaceBetween: 24,
+        // 	centeredSlides: false,
+        // },
+        // 1150: {
+        // 	centeredSlides: false,
+        // 	slidesPerView: 3,
+        // },
       },
       // Події
       on: {}

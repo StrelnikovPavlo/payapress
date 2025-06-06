@@ -3,14 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>404</title>
+		<title>Контакти</title>
 		<script type="module" crossorigin="" src="./js/app.min.js?v=1749192013915"></script>
 		<script type="module" crossorigin="" src="./js/slider.min.js?v=1749192013915"></script>
 		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1749192013915">
 		<link rel="stylesheet" crossorigin="" href="./css/slider.min.css?v=1749192013915">
-		<link rel="stylesheet" crossorigin="" href="./css/404.min.css?v=1749192013915">
-		<link rel="stylesheet" crossorigin="" href="./css/productcard.min.css?v=1749192013915">
+		<link rel="stylesheet" crossorigin="" href="./css/contacts.min.css?v=1749192013915">
 		<link rel="stylesheet" crossorigin="" href="./css/navigation.min.css?v=1749192013915">
+		<link rel="stylesheet" crossorigin="" href="./css/breadcrumbs.min.css?v=1749192013915">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -103,199 +103,137 @@
 					</div>
 				</div>
 			</header>
-			<main class="page page--not-found">
-				<div class="not-found">
-					<div class="not-found__container">
-						<div data-fls-corner="" class="not-found__body --corner --corner-full">
-							<div class="not-found__content">
-								<div data-fls-title="" class="not-found__label title">404</div>
-								<h3 class="not-found__title">Упс, сторінка не знайдена</h3>
-								<div class="not-found__subtitle">На жаль, неправильно набрана адреса або такої сторінки більше не існує.</div>
-								<a href="#" class="not-found__link button button--white">Перейти на головну</a>
+			<main class="page page--contacts">
+				<nav class="breadcrumbs">
+					<div class="breadcrumbs__container">
+						<ul class="breadcrumbs__list">
+							<li>
+								<a href="/" class="breadcrumbs__link --home">
+									<svg style="width: 20px;">
+										<use xlink:href="./assets/img/spritemap.svg#sprite-home"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="breadcrumbs__link --active">Продукція</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<section class="contacts">
+					<div class="contacts__container">
+						<h1 data-fls-title="" class="contacts__title title page-title">Контакти</h1>
+						<div data-fls-dynamic=".contacts__container, 767.98, 4" class="contacts__map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.5064675313797!2d55.374953325699714!3d25.118562627761566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6f9f1fbfb607%3A0x4db0a2f5f59532d9!2sIFZA%20Business%20Park!5e0!3m2!1spl!2spl!4v1749180116280!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						<div class="contacts__section contacts__section--info">
+							<h2 class="contacts__subtitle">З’яжіться з нами</h2>
+							<div class="contacts__text">
+								<p>
+									Дякуємо за ваш інтерес до PAYAPRESS і наших шинопроводів. Будь ласка, зв’яжіться з нами напряму, використовуючи вказану нище інформацію,
+								</p>
+							</div>
+							<div class="contacts__cards">
+								<div class="contacts__card --corner --corner-bottom-right">
+									<div class="contacts__icon">
+										<svg>
+											<use xlink:href="./assets/img/spritemap.svg#sprite-email"></use>
+										</svg>
+									</div>
+									<div class="contacts__column">
+										<div class="contacts__label">Email</div>
+										<a href="#" class="contacts__info">sales@payapress.com</a>
+									</div>
+									<span class="--corner-line --corner-line-bottom-right"></span>
+								</div>
+								<div class="contacts__card --corner --corner-bottom-left-bottom-right">
+									<div class="contacts__icon">
+										<svg>
+											<use xlink:href="./assets/img/spritemap.svg#sprite-whatsapp"></use>
+										</svg>
+									</div>
+									<div class="contacts__column">
+										<div class="contacts__label">WhatsApp</div>
+										<a href="tel:+971556957664" class="contacts__info">+971 55 695 7664</a>
+									</div>
+									<span class="--corner-line --corner-line-bottom-left"></span>
+									<span class="--corner-line --corner-line-bottom-right"></span>
+								</div>
+								<div class="contacts__card --corner --corner-bottom-left">
+									<div class="contacts__icon">
+										<svg>
+											<use xlink:href="./assets/img/spritemap.svg#sprite-location"></use>
+										</svg>
+									</div>
+									<div class="contacts__column">
+										<div class="contacts__label">Office Address</div>
+										<div class="contacts__info">IFZA Free Zone | Dubai Silicon Oasis - Dubai, UAE</div>
+									</div>
+									<span class="--corner-line --corner-line-bottom-left"></span>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<section class="our-products">
-					<div class="our-products__container">
-						<div class="our-products__head">
-							<h2 data-fls-title="" class="our-products__title title">Наша продукція</h2>
-							<a href="#" data-fls-button="" class="our-products__link button button--red-border">Переглянути</a>
+						<div class="contacts__section contacts__section--social">
+							<h2 class="contacts__subtitle">Ми у соціальних мережах</h2>
+							<div class="contacts__socials">
+								<a href="#" class="contacts__social contacts__social--facebook">
+									<svg>
+										<use xlink:href="./assets/img/spritemap.svg#sprite-facebook"></use>
+									</svg>
+								</a>
+								<a href="#" class="contacts__social contacts__social--instagram">
+									<svg>
+										<use xlink:href="./assets/img/spritemap.svg#sprite-instagram"></use>
+									</svg>
+								</a>
+								<a href="#" class="contacts__social contacts__social--youtube">
+									<svg>
+										<use xlink:href="./assets/img/spritemap.svg#sprite-youtube"></use>
+									</svg>
+								</a>
+								<a href="#" class="contacts__social contacts__social--whatsapp">
+									<svg>
+										<use xlink:href="./assets/img/spritemap.svg#sprite-whatsapp"></use>
+									</svg>
+								</a>
+								<a href="#" class="contacts__social contacts__social--linkedin">
+									<svg>
+										<use xlink:href="./assets/img/spritemap.svg#sprite-linkedin"></use>
+									</svg>
+								</a>
+							</div>
 						</div>
-						<div class="our-products__body">
-							<div data-fls-slider="" class="slider">
-								<div class="slider__inner swiper">
-									<div class="slider__wrapper swiper-wrapper">
-										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
-											<a href="#" class="product-card__inner --corner --corner-full">
-												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
-												</div>
-												<div class="product-card__content">
-													<div class="product-card__block">
-														<div class="product-card__label">Модель:</div>
-														<div class="product-card__model">HBC-PC120</div>
-														<div class="product-card__title">Верстат для обробки шин</div>
-													</div>
-													<div class="product-card__block">
-														<div class="product-card__desc">
-															<span>Функції:</span>
-															<span>
-																Різання, штампування та згинання шин по одній. Обтискання/різання кабелю (опціонально)
-															</span>
-														</div>
-													</div>
-												</div>
-												<span class="--corner-line --corner-line-top-left"></span>
-												<span class="--corner-line --corner-line-top-right"></span>
-												<span class="--corner-line --corner-line-bottom-left"></span>
-												<span class="--corner-line --corner-line-bottom-right"></span>
-											</a>
+						<div class="contacts__section contacts__section--office">
+							<h2 class="contacts__subtitle">Наш офіс</h2>
+							<div class="contacts__inner">
+								<div data-fls-slider="" class="contacts__slider swiper">
+									<div class="contacts__wrapper swiper-wrapper">
+										<div data-fls-corner="" class="contacts__slide swiper-slide --corner --corner-top-left-bottom-right">
+											<img alt="" src="./assets/img/contacts/01.webp">
 										</div>
-										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
-											<a href="#" class="product-card__inner --corner --corner-full">
-												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
-												</div>
-												<div class="product-card__content">
-													<div class="product-card__block">
-														<div class="product-card__label">Модель:</div>
-														<div class="product-card__model">HBC-PC120</div>
-														<div class="product-card__title">Верстат для обробки шин</div>
-													</div>
-													<div class="product-card__block">
-														<div class="product-card__desc">
-															<span>Функції:</span>
-															<span>
-																Різання, штампування та згинання шин по одній. Обтискання/різання кабелю (опціонально)
-															</span>
-														</div>
-													</div>
-												</div>
-												<span class="--corner-line --corner-line-top-left"></span>
-												<span class="--corner-line --corner-line-top-right"></span>
-												<span class="--corner-line --corner-line-bottom-left"></span>
-												<span class="--corner-line --corner-line-bottom-right"></span>
-											</a>
+										<div data-fls-corner="" class="contacts__slide swiper-slide --corner --corner-top-left-bottom-right">
+											<img alt="" src="./assets/img/contacts/01.webp">
 										</div>
-										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
-											<a href="#" class="product-card__inner --corner --corner-full">
-												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
-												</div>
-												<div class="product-card__content">
-													<div class="product-card__block">
-														<div class="product-card__label">Модель:</div>
-														<div class="product-card__model">HBC-PC120</div>
-														<div class="product-card__title">Верстат для обробки шин</div>
-													</div>
-													<div class="product-card__block">
-														<div class="product-card__desc">
-															<span>Функції:</span>
-															<span>
-																Різання, штампування та згинання шин по одній. Обтискання/різання кабелю (опціонально)
-															</span>
-														</div>
-													</div>
-												</div>
-												<span class="--corner-line --corner-line-top-left"></span>
-												<span class="--corner-line --corner-line-top-right"></span>
-												<span class="--corner-line --corner-line-bottom-left"></span>
-												<span class="--corner-line --corner-line-bottom-right"></span>
-											</a>
+										<div data-fls-corner="" class="contacts__slide swiper-slide --corner --corner-top-left-bottom-right">
+											<img alt="" src="./assets/img/contacts/01.webp">
 										</div>
-										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
-											<a href="#" class="product-card__inner --corner --corner-full">
-												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
-												</div>
-												<div class="product-card__content">
-													<div class="product-card__block">
-														<div class="product-card__label">Модель:</div>
-														<div class="product-card__model">HBC-PC120</div>
-														<div class="product-card__title">Верстат для обробки шин</div>
-													</div>
-													<div class="product-card__block">
-														<div class="product-card__desc">
-															<span>Функції:</span>
-															<span>
-																Різання, штампування та згинання шин по одній. Обтискання/різання кабелю (опціонально)
-															</span>
-														</div>
-													</div>
-												</div>
-												<span class="--corner-line --corner-line-top-left"></span>
-												<span class="--corner-line --corner-line-top-right"></span>
-												<span class="--corner-line --corner-line-bottom-left"></span>
-												<span class="--corner-line --corner-line-bottom-right"></span>
-											</a>
-										</div>
-										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
-											<a href="#" class="product-card__inner --corner --corner-full">
-												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
-												</div>
-												<div class="product-card__content">
-													<div class="product-card__block">
-														<div class="product-card__label">Модель:</div>
-														<div class="product-card__model">HBC-PC120</div>
-														<div class="product-card__title">Верстат для обробки шин</div>
-													</div>
-													<div class="product-card__block">
-														<div class="product-card__desc">
-															<span>Функції:</span>
-															<span>
-																Різання, штампування та згинання шин по одній. Обтискання/різання кабелю (опціонально)
-															</span>
-														</div>
-													</div>
-												</div>
-												<span class="--corner-line --corner-line-top-left"></span>
-												<span class="--corner-line --corner-line-top-right"></span>
-												<span class="--corner-line --corner-line-bottom-left"></span>
-												<span class="--corner-line --corner-line-bottom-right"></span>
-											</a>
-										</div>
-										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
-											<a href="#" class="product-card__inner --corner --corner-full">
-												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
-												</div>
-												<div class="product-card__content">
-													<div class="product-card__block">
-														<div class="product-card__label">Модель:</div>
-														<div class="product-card__model">HBC-PC120</div>
-														<div class="product-card__title">Верстат для обробки шин</div>
-													</div>
-													<div class="product-card__block">
-														<div class="product-card__desc">
-															<span>Функції:</span>
-															<span>
-																Різання, штампування та згинання шин по одній. Обтискання/різання кабелю (опціонально)
-															</span>
-														</div>
-													</div>
-												</div>
-												<span class="--corner-line --corner-line-top-left"></span>
-												<span class="--corner-line --corner-line-top-right"></span>
-												<span class="--corner-line --corner-line-bottom-left"></span>
-												<span class="--corner-line --corner-line-bottom-right"></span>
-											</a>
+										<div data-fls-corner="" class="contacts__slide swiper-slide --corner --corner-top-left-bottom-right">
+											<img alt="" src="./assets/img/contacts/01.webp">
 										</div>
 									</div>
-									<div class="slider__pagination swiper-pagination"></div>
-									<div data-fls-navigation="" class="slider__navigation">
-										<button class="slider__navigation-button slider__navigation-button--left navigation-button">
-											<svg style="width: 20px; height: 18px">
-												<use xlink:href="./assets/img/spritemap.svg#sprite-nav-left"></use>
-											</svg>
-										</button>
-										<button class="slider__navigation-button slider__navigation-button--right navigation-button">
-											<svg style="width: 20px; height: 18px">
-												<use xlink:href="./assets/img/spritemap.svg#sprite-nav-right"></use>
-											</svg>
-										</button>
-									</div>
+								</div>
+								<div class="contacts__pagination swiper-pagination"></div>
+								<div data-fls-navigation="" class="contacts__navigation">
+									<button data-fls-navigation="" class="contacts__navigation-button contacts__navigation-button--left navigation-button">
+										<svg style="width: 20px; height: 18px">
+											<use xlink:href="./assets/img/spritemap.svg#sprite-nav-left"></use>
+										</svg>
+									</button>
+									<button data-fls-navigation="" class="contacts__navigation-button contacts__navigation-button--right navigation-button">
+										<svg style="width: 20px; height: 18px">
+											<use xlink:href="./assets/img/spritemap.svg#sprite-nav-right"></use>
+										</svg>
+									</button>
 								</div>
 							</div>
 						</div>
