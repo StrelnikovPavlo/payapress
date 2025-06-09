@@ -198,6 +198,86 @@
   right: 60.1924759405%;
 }
 
+.product-hero__picture--4 .product-hero__tooltip--1 {
+  top: 30.8996088657%;
+  left: 22.4846894138%;
+}
+.product-hero__picture--4 .product-hero__tooltip--2 {
+  bottom: 12.2015915119%;
+  left: 24.5090909091%;
+}
+.product-hero__picture--4 .product-hero__tooltip--3 {
+  top: 21.75066313%;
+  left: 44.8%;
+}
+.product-hero__picture--4 .product-hero__tooltip--4 {
+  top: 15.2519893899%;
+  left: 54.4727272727%;
+}
+
+.product-hero__picture--5 .product-hero__tooltip--1 {
+  top: 21.3043478261%;
+  left: 28.8376220053%;
+}
+.product-hero__picture--5 .product-hero__tooltip--2 {
+  top: 35.2173913043%;
+  left: 18.544809228%;
+}
+.product-hero__picture--5 .product-hero__tooltip--3 {
+  top: 64.7826086957%;
+  left: 51.1091393079%;
+}
+.product-hero__picture--5 .product-hero__tooltip--4 {
+  bottom: 7.2463768116%;
+  left: 7.0984915705%;
+}
+
+.product-hero__picture--6 .product-hero__tooltip--1 {
+  top: 34.7989949749%;
+  left: 53.101997897%;
+}
+.product-hero__picture--6 .product-hero__tooltip--2 {
+  top: 30.7788944724%;
+  left: 30.1787592008%;
+}
+.product-hero__picture--6 .product-hero__tooltip--3 {
+  top: 27.6381909548%;
+  left: 48.159831756%;
+}
+.product-hero__picture--6 .product-hero__tooltip--4 {
+  top: 13.9447236181%;
+  left: 45.531019979%;
+}
+
+.product-hero__picture--7 .product-hero__tooltip--1 {
+  top: 29.3251533742%;
+  right: 20.0387221684%;
+}
+.product-hero__picture--7 .product-hero__tooltip--2 {
+  top: 22.6993865031%;
+  right: 25.8470474347%;
+}
+.product-hero__picture--7 .product-hero__tooltip--3 {
+  top: 31.9018404908%;
+  left: 48.7899322362%;
+}
+.product-hero__picture--7 .product-hero__tooltip--4 {
+  top: 14.3558282209%;
+  left: 46.6602129719%;
+}
+.product-hero__picture--7 .product-hero__tooltip--5 {
+  top: 54.2331288344%;
+  left: 48.8867376573%;
+}
+.product-hero__picture--7 .product-hero__tooltip--6 {
+  top: 25.2760736196%;
+  left: 37.2700871249%;
+}
+.product-hero__picture--7 .product-hero__tooltip--7 {
+  top: 33.2515337423%;
+  left: 17.9090029042%;
+}
+
 .tooltip {
   position: absolute;
 }
@@ -451,14 +531,34 @@
 .comparison__title {
   max-width: 41.875rem;
 }
+.comparison__body {
+  position: relative;
+}
+.comparison__body.__container {
+  padding: 0;
+}
 .comparison__img {
   min-width: 0;
   position: relative;
   overflow-x: auto;
   overflow-y: hidden;
+  padding: 0 1rem;
 }
 .comparison__img img {
   min-width: 94.9375rem;
+}
+.comparison__fullscreen {
+  position: absolute;
+  z-index: 2;
+  top: 12.7005347594%;
+  right: 52.2712310731%;
+  background-color: #d71920;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comparison__fullscreen svg {
+  fill: #fff;
 }
 .comparison .simplebar-track {
   height: 0.1875rem;
@@ -609,6 +709,10 @@
   .product-specs__row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .comparison__fullscreen {
+    top: 1rem;
+    right: 1.875rem;
   }
 }
 
@@ -791,6 +895,18 @@
   .comparison__header {
     margin-bottom: 2.25rem;
   }
+  .comparison__fullscreen {
+    width: 2.25rem;
+  }
+  .comparison__fullscreen {
+    height: 2.25rem;
+  }
+  .comparison__fullscreen svg {
+    width: 0.625rem;
+  }
+  .comparison__fullscreen svg {
+    height: 0.625rem;
+  }
   .our-products {
     padding-top: 3.125rem;
   }
@@ -937,6 +1053,18 @@
   }
   .comparison__header {
     margin-bottom: clamp( 1.5rem , 2.4765100671125rem  +  -1.0067114094vw , 2.25rem );
+  }
+  .comparison__fullscreen {
+    width: clamp( 2.25rem , 2.0234899328875rem  +  1.0067114094vw , 3rem );
+  }
+  .comparison__fullscreen {
+    height: clamp( 2.25rem , 2.0234899328875rem  +  1.0067114094vw , 3rem );
+  }
+  .comparison__fullscreen svg {
+    width: clamp( 0.625rem , 0.4739932885875rem  +  0.6711409396vw , 1.125rem );
+  }
+  .comparison__fullscreen svg {
+    height: clamp( 0.625rem , 0.4739932885875rem  +  0.6711409396vw , 1.125rem );
   }
   .our-products {
     padding-top: clamp( 3.125rem , 2.44546979865625rem  +  3.0201342282vw , 5.375rem );
@@ -1123,6 +1251,18 @@
   }
   .comparison__header {
     margin-bottom: 1.5rem;
+  }
+  .comparison__fullscreen {
+    width: 3rem;
+  }
+  .comparison__fullscreen {
+    height: 3rem;
+  }
+  .comparison__fullscreen svg {
+    width: 1.125rem;
+  }
+  .comparison__fullscreen svg {
+    height: 1.125rem;
   }
   .our-products {
     padding-top: 5.375rem;
