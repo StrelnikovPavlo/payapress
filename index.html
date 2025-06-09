@@ -4,18 +4,18 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Home Page</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1749192471087"></script>
-		<link rel="modulepreload" crossorigin="" href="./js/app.min.js?v=1749192471087">
-		<link rel="modulepreload" crossorigin="" href="./js/slider.min.js?v=1749192471087">
-		<link rel="modulepreload" crossorigin="" href="./js/showmore.min.js?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/slider.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/showmore.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/textcontent.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/productcard.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/navigation.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/feature.min.css?v=1749192471087">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1749450692976"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/app.min.js?v=1749450692976">
+		<link rel="modulepreload" crossorigin="" href="./js/slider.min.js?v=1749450692976">
+		<link rel="modulepreload" crossorigin="" href="./js/aboutblock.min.js?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/slider.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/aboutblock.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/textcontent.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/productcard.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/navigation.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/feature.min.css?v=1749450692976">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -85,7 +85,7 @@
 					</div>
 					<div class="header__actions">
 						<div data-fls-dynamic=".menu__body, 991.98, 0" class="header__actions-row">
-							<a href="#" class="action-link action-link--search">
+							<a data-fls-popup-link="search" href="#" class="action-link action-link--search">
 								<svg style="width: 26px;" class="action-link__icon action-link__icon--search">
 									<use xlink:href="./assets/img/spritemap.svg#sprite-search"></use>
 								</svg>
@@ -140,7 +140,7 @@
 										</div>
 									</div>
 									<div class="hero__img">
-										<img alt="Image" src="./assets/img/hero/01.webp">
+										<img loading="lazy" alt="Image" src="./assets/img/hero/01.webp">
 									</div>
 								</div>
 								<div class="hero__slide swiper-slide">
@@ -156,7 +156,7 @@
 										</div>
 									</div>
 									<div class="hero__img">
-										<img alt="Image" src="./assets/img/hero/01.webp">
+										<img loading="lazy" alt="Image" src="./assets/img/hero/01.webp">
 									</div>
 								</div>
 							</div>
@@ -277,7 +277,7 @@
 				</section>
 				<section class="catalog">
 					<div class="catalog__container">
-						<div class="catalog__head">
+						<div class="catalog__header">
 							<div class="catalog__caption">
 								<h2 data-fls-title="" class="catalog__title title">Широкий асортимент</h2>
 								<div data-fls-title="" class="catalog__subtitle subtitle">верстатів для обробки шин</div>
@@ -292,19 +292,19 @@
 						<div class="catalog__content">
 							<div class="catalog__line catalog__line--left"></div>
 							<a href="#" class="catalog__item">
-								<img alt="Image" src="./assets/img/catalog/02.webp">
+								<img loading="lazy" alt="Image" src="./assets/img/catalog/02.webp">
 								<span>Верстати для обробки шин</span>
 							</a>
 							<a href="#" class="catalog__item">
-								<img alt="Image" src="./assets/img/catalog/02.webp">
+								<img loading="lazy" alt="Image" src="./assets/img/catalog/02.webp">
 								<span>Верстат для різання DIN-рейки</span>
 							</a>
 							<a href="#" class="catalog__item">
-								<img alt="Image" src="./assets/img/catalog/01.webp">
+								<img loading="lazy" alt="Image" src="./assets/img/catalog/01.webp">
 								<span>Верстат для різання перфокоробу</span>
 							</a>
 							<a href="#" class="catalog__item">
-								<img alt="Image" src="./assets/img/catalog/03.webp">
+								<img loading="lazy" alt="Image" src="./assets/img/catalog/03.webp">
 								<span>Штампувальні верстати</span>
 							</a>
 							<div class="catalog__line catalog__line--right"></div>
@@ -338,7 +338,7 @@
 				</section>
 				<section class="our-products --bg-img">
 					<div class="our-products__container">
-						<div class="our-products__head">
+						<div class="our-products__header">
 							<h2 data-fls-title="" class="our-products__title title">Наша продукція</h2>
 							<a href="#" data-fls-button="" class="our-products__link button button--red-border">Переглянути</a>
 						</div>
@@ -349,7 +349,7 @@
 										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
 											<a href="#" class="product-card__inner --corner --corner-full">
 												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
+													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
 												</div>
 												<div class="product-card__content">
 													<div class="product-card__block">
@@ -375,7 +375,31 @@
 										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
 											<a href="#" class="product-card__inner --corner --corner-full">
 												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
+													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
+												</div>
+												<div class="product-card__content">
+													<div class="product-card__block">
+														<div class="product-card__label">Модель:</div>
+														<div class="product-card__model">HBC-B120 ES/EH</div>
+														<div class="product-card__title">Верстат для згинання, різання та пробивання шин</div>
+													</div>
+													<div class="product-card__block">
+														<div class="product-card__desc">
+															<span>Функції:</span>
+															<span>Cutting ,Punching and Bending Busbars One by One</span>
+														</div>
+													</div>
+												</div>
+												<span class="--corner-line --corner-line-top-left"></span>
+												<span class="--corner-line --corner-line-top-right"></span>
+												<span class="--corner-line --corner-line-bottom-left"></span>
+												<span class="--corner-line --corner-line-bottom-right"></span>
+											</a>
+										</div>
+										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
+											<a href="#" class="product-card__inner --corner --corner-full">
+												<div href="#" class="product-card__image">
+													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
 												</div>
 												<div class="product-card__content">
 													<div class="product-card__block">
@@ -401,7 +425,7 @@
 										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
 											<a href="#" class="product-card__inner --corner --corner-full">
 												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
+													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
 												</div>
 												<div class="product-card__content">
 													<div class="product-card__block">
@@ -427,7 +451,7 @@
 										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
 											<a href="#" class="product-card__inner --corner --corner-full">
 												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
+													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
 												</div>
 												<div class="product-card__content">
 													<div class="product-card__block">
@@ -453,33 +477,7 @@
 										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
 											<a href="#" class="product-card__inner --corner --corner-full">
 												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
-												</div>
-												<div class="product-card__content">
-													<div class="product-card__block">
-														<div class="product-card__label">Модель:</div>
-														<div class="product-card__model">HBC-PC120</div>
-														<div class="product-card__title">Верстат для обробки шин</div>
-													</div>
-													<div class="product-card__block">
-														<div class="product-card__desc">
-															<span>Функції:</span>
-															<span>
-																Різання, штампування та згинання шин по одній. Обтискання/різання кабелю (опціонально)
-															</span>
-														</div>
-													</div>
-												</div>
-												<span class="--corner-line --corner-line-top-left"></span>
-												<span class="--corner-line --corner-line-top-right"></span>
-												<span class="--corner-line --corner-line-bottom-left"></span>
-												<span class="--corner-line --corner-line-bottom-right"></span>
-											</a>
-										</div>
-										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
-											<a href="#" class="product-card__inner --corner --corner-full">
-												<div href="#" class="product-card__image">
-													<img alt="" src="./assets/img/products/01.webp">
+													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
 												</div>
 												<div class="product-card__content">
 													<div class="product-card__block">
@@ -612,7 +610,14 @@
 										</div>
 										<div class="offer-form__input">
 											<label class="offer-form__label">Оберіть моделі *</label>
-											<select name="form[model]" data-fls-select="" multiple data-fls-select-checkbox="">
+											<select name="form[model]" data-fls-select="" data-fls-select-scroll="" multiple data-fls-select-checkbox="">
+												<option value="1">HBC-PC120</option>
+												<option value="2">HBC-B120 ES/EH</option>
+												<option value="3">HBC-B120 ES/EH</option>
+												<option value="4">HBC-B120 ES/EH</option>
+												<option value="5">HBC-B120 ES/EH</option>
+												<option value="6">HBC-B120 ES/EH</option>
+												<option value="7">HBC-B120 ES/EH</option>
 												<option value="1">HBC-PC120</option>
 												<option value="2">HBC-B120 ES/EH</option>
 												<option value="3">HBC-B120 ES/EH</option>
@@ -644,7 +649,7 @@
 						</div>
 					</div>
 				</section>
-				<section class="about">
+				<section data-fls-aboutblock="" class="about">
 					<div data-fls-showmore="" class="about__container">
 						<div data-fls-textcontent="" data-fls-showmore-content="430" class="about__content content-text">
 							<h1>
@@ -795,6 +800,96 @@
 				</div>
 			</footer>
 		</div>
+		<div data-fls-popup="search" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper popup__search">
+				<form data-fls-corner="" data-fls-popup-body="" class="popup__body popup__search-body --corner --corner-top-left-bottom-right">
+					<input autocomplete="off" type="text" name="form[search]" placeholder="Введіть текст" class="input">
+					<span class="--corner-line --corner-line-top-left"></span>
+					<span class="--corner-line --corner-line-bottom-right"></span>
+				</form>
+			</div>
+		</div>
+		<div data-fls-popup="offer" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<form data-fls-corner="" data-fls-popup-body="" class="popup__body popup-form --corner --corner-top-left-bottom-right">
+					<button data-fls-popup-close="" class="popup__close">
+						<svg style="width: 16px; height: 16px;">
+							<use xlink:href="./assets/img/spritemap.svg#sprite-close"></use>
+						</svg>
+					</button>
+					<div class="popup-form__icon">
+						<svg>
+							<use xlink:href="./assets/img/spritemap.svg#sprite-sertificate"></use>
+						</svg>
+					</div>
+					<div class="popup-form__title">Отримайте персональну пропозицію</div>
+					<div class="popup-form__text">
+						Заповніть форму і з вами зв’яжеться наш менеджер для уточнення деталей, після чого ми підготуємо персональну пропозицію саме під ваші потреби
+					</div>
+					<div class="popup-form__fields">
+						<div class="popup-form__input">
+							<label class="popup-form__label">Ім’я *</label>
+							<input data-fls-input="" type="text" name="form[username]" data-error="Введіть щонайменше 2 символи" placeholder="Ваше ім’я" class="input">
+						</div>
+						<div class="popup-form__input">
+							<label class="popup-form__label">Прізвище *</label>
+							<input data-fls-input="" type="text" name="form[surname]" data-error="Введіть щонайменше 2 символи" placeholder="Ваше прізвище" class="input">
+						</div>
+						<div class="popup-form__input">
+							<label class="popup-form__label">Телефон *</label>
+							<input data-fls-input="" data-fls-input-mask="+38(999) 999-9999" type="text" name="form[phone]" data-error="Введіть щонайменше 2 символи" placeholder="+38 (___) ___ __ __" class="input">
+						</div>
+						<button class="popup-form__submit button button--red">Надіслати</button>
+					</div>
+					<span class="--corner-line --corner-line-top-left"></span>
+					<span class="--corner-line --corner-line-bottom-right"></span>
+				</form>
+			</div>
+		</div>
+		<div data-fls-popup="ups" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<form data-fls-corner="" data-fls-popup-body="" class="popup__body popup-form popup-form--status --corner --corner-top-left-bottom-right">
+					<button data-fls-popup-close="" class="popup__close">
+						<svg style="width: 16px; height: 16px;">
+							<use xlink:href="./assets/img/spritemap.svg#sprite-close"></use>
+						</svg>
+					</button>
+					<div class="popup-form__icon">
+						<svg>
+							<use xlink:href="./assets/img/spritemap.svg#sprite-unhappy"></use>
+						</svg>
+					</div>
+					<div class="popup-form__title">Упс...</div>
+					<div class="popup-form__text">Щось пішло не так, перевірте правильність введеної інформації</div>
+					<a href="#" class="popup-form__button button button--red">Добре</a>
+					<span class="--corner-line --corner-line-top-left"></span>
+					<span class="--corner-line --corner-line-bottom-right"></span>
+				</form>
+			</div>
+		</div>
+		<div data-fls-popup="success" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<form data-fls-corner="" data-fls-popup-body="" class="popup__body popup-form popup-form--status --corner --corner-top-left-bottom-right">
+					<button data-fls-popup-close="" class="popup__close">
+						<svg style="width: 16px; height: 16px;">
+							<use xlink:href="./assets/img/spritemap.svg#sprite-close"></use>
+						</svg>
+					</button>
+					<div class="popup-form__icon">
+						<svg>
+							<use xlink:href="./assets/img/spritemap.svg#sprite-happy"></use>
+						</svg>
+					</div>
+					<div class="popup-form__title">Дякуємо!</div>
+					<div class="popup-form__text">
+						Ми отримали ваші контактні дані. Наш менеджер зв’яжеться з Вами у робочу годину.
+					</div>
+					<a href="#" class="popup-form__button button button--red">Добре</a>
+					<span class="--corner-line --corner-line-top-left"></span>
+					<span class="--corner-line --corner-line-bottom-right"></span>
+				</form>
+			</div>
+		</div>
 		<ul id="fls-dev-panel">
 			<li>
 				<a href="services.html">services</a>
@@ -831,6 +926,27 @@
 			</li>
 			<li>
 				<a href="about.html">about</a>
+			</li>
+			<li>
+				<a href="HBC-PC120-EH.html">HBC-PC120-EH</a>
+			</li>
+			<li>
+				<a href="HBC-CP160-EH.html">HBC-CP160-EH</a>
+			</li>
+			<li>
+				<a href="HBC-CP.CNC200.html">HBC-CP.CNC200</a>
+			</li>
+			<li>
+				<a href="HBC-B160-EH.html">HBC-B160-EH</a>
+			</li>
+			<li>
+				<a href="HBC-B120-EH.html">HBC-B120-EH</a>
+			</li>
+			<li>
+				<a href="HBC-A160-EH.html">HBC-A160-EH</a>
+			</li>
+			<li>
+				<a href="HBC-A120-EH.html">HBC-A120-EH</a>
 			</li>
 			<li>
 				<a href="404.html">404</a>

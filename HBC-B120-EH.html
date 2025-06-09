@@ -3,14 +3,18 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>404</title>
+		<title>HBC-PC120-EH</title>
 		<script type="module" crossorigin="" src="./js/app.min.js?v=1749450692976"></script>
 		<script type="module" crossorigin="" src="./js/slider.min.js?v=1749450692976"></script>
+		<script type="module" crossorigin="" src="./js/gallery.min2.js?v=1749450692976"></script>
+		<script type="module" crossorigin="" src="./js/productpage.min.js?v=1749450692976"></script>
 		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1749450692976">
 		<link rel="stylesheet" crossorigin="" href="./css/slider.min.css?v=1749450692976">
-		<link rel="stylesheet" crossorigin="" href="./css/404.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/gallery.min2.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/productpage.min.css?v=1749450692976">
 		<link rel="stylesheet" crossorigin="" href="./css/productcard.min.css?v=1749450692976">
 		<link rel="stylesheet" crossorigin="" href="./css/navigation.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/breadcrumbs.min.css?v=1749450692976">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -103,23 +107,366 @@
 					</div>
 				</div>
 			</header>
-			<main class="page page--not-found">
-				<div class="not-found">
-					<div class="not-found__container">
-						<div data-fls-corner="" class="not-found__body --corner --corner-full">
-							<div class="not-found__content">
-								<div data-fls-title="" class="not-found__label title">404</div>
-								<h3 class="not-found__title">Упс, сторінка не знайдена</h3>
-								<div class="not-found__subtitle">На жаль, неправильно набрана адреса або такої сторінки більше не існує.</div>
-								<a href="#" class="not-found__link button button--white">Перейти на головну</a>
+			<main class="page page--product">
+				<nav class="breadcrumbs">
+					<div class="breadcrumbs__container">
+						<ul class="breadcrumbs__list">
+							<li>
+								<a href="/" class="breadcrumbs__link --home">
+									<svg style="width: 20px;">
+										<use xlink:href="./assets/img/spritemap.svg#sprite-home"></use>
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="breadcrumbs__link --active">Продукція</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<section class="product-hero">
+					<div class="product-hero__container">
+						<div data-fls-corner="" class="product-hero__content --corner --corner-full">
+							<div class="product-hero__row">
+								<div class="product-hero__column">
+									<div class="product-hero__title">Різак | Перфоратор, CNC</div>
+									<h1 class="product-hero__model">
+										<span>HBC-B120-EH</span>
+										<span>HBC-B120-ES</span>
+									</h1>
+									<div class="product-hero__features">
+										<img src="./assets/img/product/features/01.svg" alt="">
+										<img src="./assets/img/product/features/09.svg" alt="">
+										<img src="./assets/img/product/features/06.svg" alt="">
+										<img src="./assets/img/product/features/07.svg" alt="">
+										<img src="./assets/img/product/features/08.svg" alt="">
+										<img src="./assets/img/product/features/10.svg" alt="">
+										<img src="./assets/img/product/features/11.svg" alt="">
+									</div>
+									<a data-fls-popup-link="ups" data-fls-button="" href="#" class="product-hero__button button button--red">
+										<svg style="width: 20px; height: 20px">
+											<use xlink:href="./assets/img/spritemap.svg#sprite-video"></use>
+										</svg>
+										<span>Відеоогляд</span>
+									</a>
+								</div>
+								<div class="product-hero__column">
+									<div class="product-hero__text">
+										<p>
+											В цьому блоці потрібно стисло дати найважливішу інфо. Не писати сюди тексту більше ніж на це розрахован блок!
+											<br>
+											Портативний верстат Workshop є одним з наших найпопулярніших верстатів і має широке коло клієнтів. Причиною популярності цього пристрою серед інших є його невелика конструкція, яка може поміститися навіть у невеликих майстернях, також за допомогою цього верстата ви можете виконувати всі три операції з алюмінієвими та мідними шинами, а саме: штампування, різання та згинання.
+										</p>
+									</div>
+									<a data-fls-popup-link="offer" data-fls-button="" href="#" class="product-hero__link button button--red">Отримати пропозицію</a>
+								</div>
+							</div>
+							<span class="--corner-line --corner-line-top-left"></span>
+							<span class="--corner-line --corner-line-top-right"></span>
+							<span class="--corner-line --corner-line-bottom-left"></span>
+							<span class="--corner-line --corner-line-bottom-right"></span>
+						</div>
+						<div class="product-hero__picture product-hero__picture--3">
+							<img alt="" src="./assets/img/product/03.webp">
+							<div class="product-hero__tooltip product-hero__tooltip--1 tooltip">
+								<div class="tooltip__number">01</div>
+								<div data-fls-dynamic=".product-hero__desc, 991.98" class="tooltip__content --corner --corner-bottom-left-bottom-right">
+									<div class="tooltip__label">Fast tool change</div>
+									<div class="tooltip__text">Fast switching dies facilitate work with this machine</div>
+								</div>
+							</div>
+							<div class="product-hero__tooltip product-hero__tooltip--2 tooltip">
+								<div class="tooltip__number">02</div>
+								<div data-fls-dynamic=".product-hero__desc, 991.98" class="tooltip__content --active --corner --corner-bottom-left-bottom-right">
+									<div class="tooltip__label">Fast tool</div>
+									<div class="tooltip__text">
+										Fast switching dies facilitate work with this machine Fast switching dies facilitate work with this machine
+									</div>
+								</div>
+							</div>
+							<div class="product-hero__tooltip product-hero__tooltip--3 tooltip">
+								<div class="tooltip__number">03</div>
+								<div data-fls-dynamic=".product-hero__desc, 991.98" class="tooltip__content --corner --corner-bottom-left-bottom-right">
+									<div class="tooltip__label">Fast tool change Fast tool change</div>
+									<div class="tooltip__text">
+										Fast switching dies facilitate work with this machine Fast switching dies facilitate
+									</div>
+								</div>
+							</div>
+							<div class="product-hero__tooltip product-hero__tooltip--4 tooltip">
+								<div class="tooltip__number">04</div>
+								<div data-fls-dynamic=".product-hero__desc, 991.98" class="tooltip__content --corner --corner-bottom-left-bottom-right">
+									<div class="tooltip__label">Fast tool change</div>
+									<div class="tooltip__text">Fast switching dies facilitate work with this machine</div>
+								</div>
+							</div>
+							<div class="product-hero__tooltip product-hero__tooltip--5 tooltip">
+								<div class="tooltip__number">05</div>
+								<div data-fls-dynamic=".product-hero__desc, 991.98" class="tooltip__content --corner --corner-bottom-left-bottom-right">
+									<div class="tooltip__label">Fast tool change</div>
+									<div class="tooltip__text">Fast switching dies facilitate work with this machine</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-hero__desc"></div>
+					</div>
+				</section>
+				<section class="product-gallery">
+					<div class="product-gallery__container">
+						<div class="product-gallery__header">
+							<h2 data-fls-title="" class="product-gallery__title title">Галерея</h2>
+							<a data-fls-popup-link="success" data-fls-button="" href="#" class="product-gallery__button button button--red">
+								<svg style="width: 20px; height: 20px">
+									<use xlink:href="./assets/img/spritemap.svg#sprite-video"></use>
+								</svg>
+								<span>Відеоогляд</span>
+							</a>
+						</div>
+						<div class="product-gallery__body">
+							<div class="product-gallery__row">
+								<div data-fls-gallery="" data-fls-slider="" class="product-gallery__slider swiper">
+									<div class="product-gallery__slider-wrapper swiper-wrapper">
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a href="./assets/img/products/gallery.webp" class="product-gallery__slider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+									</div>
+									<a href="./assets/img/products/gallery.webp" class="product-gallery__fullscreen">
+										<svg>
+											<use xlink:href="./assets/img/spritemap.svg#sprite-fullscreen"></use>
+										</svg>
+									</a>
+								</div>
+								<div data-fls-slider="" class="product-gallery__subslider swiper">
+									<div class="product-gallery__subslider-wrapper swiper-wrapper">
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+										<a class="product-gallery__subslider-slide swiper-slide">
+											<img alt="" src="./assets/img/products/gallery.webp">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="product-gallery__navigation">
+								<button data-fls-navigation="" class="product-gallery__navigation-button product-gallery__navigation-button--left navigation-button">
+									<svg style="width: 20px; height: 18px">
+										<use xlink:href="./assets/img/spritemap.svg#sprite-nav-left"></use>
+									</svg>
+								</button>
+								<button data-fls-navigation="" class="product-gallery__navigation-button product-gallery__navigation-button--right navigation-button">
+									<svg style="width: 20px; height: 18px">
+										<use xlink:href="./assets/img/spritemap.svg#sprite-nav-right"></use>
+									</svg>
+								</button>
 							</div>
 						</div>
 					</div>
-				</div>
-				<section class="our-products">
+				</section>
+				<section class="product-specs --shadow">
+					<div class="product-specs__container">
+						<div class="product-specs__header">
+							<h2 class="product-specs__title title">Технічна інформація</h2>
+							<a data-fls-button="" href="#" class="product-specs__button button button--red">
+								<svg style="width: 20px; height: 20px">
+									<use xlink:href="./assets/img/spritemap.svg#sprite-video"></use>
+								</svg>
+								<span>Відеоогляд</span>
+							</a>
+						</div>
+						<div class="product-specs__content">
+							<div data-fls-corner="" class="product-specs__block --corner --corner-full">
+								<div class="product-specs__column">
+									<div class="product-specs__logo">
+										<img alt="" src="./assets/img/logo.webp">
+									</div>
+									<div class="product-specs__subtitle">Особливості верстата для обробки шинопроводів в майстерні</div>
+									<div class="product-specs__text">
+										<p>
+											Цей верстат для обробки шин здатний виконати всі ваші побажання щодо виконання операцій на алюмінієвих або мідних шинах, а також кабелях. Таким чином, це може бути дійсно хорошим вибором для людей, які мають справу з шинами і кабелями, а також для тих, хто має невеликі майстерні. Робочий тиск цього пристрою становить 150 бар, номінальна потужність - 1 × 1,5 кВт, а напруга - 220 В - 1/50 Гц.
+										</p>
+									</div>
+								</div>
+								<div class="product-specs__column">
+									<div class="product-specs__heading">Система подвійної дії</div>
+									<div class="product-specs__text">
+										<p>
+											Як відомо, гідравлічна система використовує масло або інші рідини для приведення в дію поршня виконавчого циліндра, який рухається для виконання певного завдання. Існує два типи гідроциліндрів: A) Гідроциліндр односторонньої дії B) Гідроциліндр двосторонньої дії
+										</p>
+										<p>
+											В даному випадку ми звертаємо увагу тільки на «Систему двосторонньої дії», і причина в тому, що ми використовуємо тільки систему двосторонньої дії на всіх наших пристроях.
+										</p>
+										<p>
+											Отже, що таке «система подвійної дії»? Циліндр подвійної дії використовує дві лінії і дає вам повну потужність вашої гідравлічної системи в обох напрямках. Якщо вам потрібно натискати і піднімати однією рукою або іншим пристроєм, циліндр подвійної дії є ідеальним рішенням. Цей пристрій був нещодавно модернізований і оснащений промисловою технологією 4.0, яка може допомогти пристроям отримувати зворотний зв'язок від процесу під час роботи в будь-який час.
+										</p>
+									</div>
+								</div>
+								<span class="--corner-line --corner-line-top-left"></span>
+								<span class="--corner-line --corner-line-top-right"></span>
+								<span class="--corner-line --corner-line-bottom-left"></span>
+								<span class="--corner-line --corner-line-bottom-right"></span>
+							</div>
+							<div data-fls-corner="" class="product-specs__block --corner --corner-full">
+								<div class="product-specs__column">
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Function</span>
+										</div>
+										<div class="product-specs__value">
+											Cutting, Punching and Bending Busbars One by One Crimping/Cutting Cable (Optional)
+										</div>
+									</div>
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Bender Capacity</span>
+										</div>
+										<div class="product-specs__value">Up to 120 x 12 mm</div>
+									</div>
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Cutting Capacity</span>
+										</div>
+										<div class="product-specs__value">Up to 120 x 12 mm</div>
+									</div>
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Punching Capacity</span>
+										</div>
+										<div class="product-specs__value">
+											Circle Dies: M6, M8, M10, M12, M14, M16, M18 Crimping/Cutting Size: up to 240 mm2
+										</div>
+									</div>
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Crimping Cable Capacity</span>
+										</div>
+										<div class="product-specs__value">Crimping Cable Capacity</div>
+									</div>
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Bender Controller</span>
+										</div>
+										<div class="product-specs__value">Electronic Controller High Accuracy Encoder</div>
+									</div>
+								</div>
+								<div class="product-specs__column">
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Hydraulic System</span>
+										</div>
+										<div class="product-specs__value">One Power Pack, Double Acting System</div>
+									</div>
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Puncher Laser Finder</span>
+										</div>
+										<div class="product-specs__value">Laser Pointer</div>
+									</div>
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Operating Pressure</span>
+										</div>
+										<div class="product-specs__value">200 Bar</div>
+									</div>
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Power Rating</span>
+										</div>
+										<div class="product-specs__value">1 x 1.5 Kw</div>
+									</div>
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Voltage</span>
+										</div>
+										<div class="product-specs__value">220 Volt – 1/50 Hz</div>
+									</div>
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Oil</span>
+										</div>
+										<div class="product-specs__value">Hydraulic Oil H68 – 30 liters</div>
+									</div>
+									<div class="product-specs__row">
+										<div class="product-specs__label">
+											<span>Main Desk Dimension</span>
+										</div>
+										<div class="product-specs__value">100 x 120 x 101 (H) cm</div>
+									</div>
+								</div>
+								<span class="--corner-line --corner-line-top-left"></span>
+								<span class="--corner-line --corner-line-top-right"></span>
+								<span class="--corner-line --corner-line-bottom-left"></span>
+								<span class="--corner-line --corner-line-bottom-right"></span>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="our-products --shadow">
 					<div class="our-products__container">
-						<div class="our-products__head">
-							<h2 data-fls-title="" class="our-products__title title">Наша продукція</h2>
+						<div class="our-products__header">
+							<h2 data-fls-title="" class="our-products__title title">Замовляють Разом</h2>
 							<a href="#" data-fls-button="" class="our-products__link button button--red-border">Переглянути</a>
 						</div>
 						<div class="our-products__body">
@@ -129,7 +476,7 @@
 										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
 											<a href="#" class="product-card__inner --corner --corner-full">
 												<div href="#" class="product-card__image">
-													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
+													<img loading="lazy" alt="" src="./assets/img/product/01.webp">
 												</div>
 												<div class="product-card__content">
 													<div class="product-card__block">
@@ -155,7 +502,7 @@
 										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
 											<a href="#" class="product-card__inner --corner --corner-full">
 												<div href="#" class="product-card__image">
-													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
+													<img loading="lazy" alt="" src="./assets/img/product/02.webp">
 												</div>
 												<div class="product-card__content">
 													<div class="product-card__block">
@@ -181,7 +528,7 @@
 										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
 											<a href="#" class="product-card__inner --corner --corner-full">
 												<div href="#" class="product-card__image">
-													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
+													<img loading="lazy" alt="" src="./assets/img/product/03.webp">
 												</div>
 												<div class="product-card__content">
 													<div class="product-card__block">
@@ -207,7 +554,7 @@
 										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
 											<a href="#" class="product-card__inner --corner --corner-full">
 												<div href="#" class="product-card__image">
-													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
+													<img loading="lazy" alt="" src="./assets/img/product/03.webp">
 												</div>
 												<div class="product-card__content">
 													<div class="product-card__block">
@@ -233,7 +580,7 @@
 										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
 											<a href="#" class="product-card__inner --corner --corner-full">
 												<div href="#" class="product-card__image">
-													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
+													<img loading="lazy" alt="" src="./assets/img/product/03.webp">
 												</div>
 												<div class="product-card__content">
 													<div class="product-card__block">
@@ -259,7 +606,7 @@
 										<div data-fls-productcard="" data-fls-corner="" class="product-card swiper-slide">
 											<a href="#" class="product-card__inner --corner --corner-full">
 												<div href="#" class="product-card__image">
-													<img loading="lazy" alt="" src="./assets/img/products/01.webp">
+													<img loading="lazy" alt="" src="./assets/img/product/03.webp">
 												</div>
 												<div class="product-card__content">
 													<div class="product-card__block">
@@ -297,6 +644,19 @@
 										</button>
 									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="comparison">
+					<div class="comparison__container">
+						<div class="comparison__header">
+							<h2 data-fls-title="" class="comparison__title title">Швидке порівняння</h2>
+							<a data-fls-button="" href="#" class="comparison__button button button--red-border">Завантажити каталог</a>
+						</div>
+						<div data-simplebar="" class="comparison__body">
+							<div class="comparison__img">
+								<img alt="" src="./assets/img/product/comparison.webp">
 							</div>
 						</div>
 					</div>

@@ -4,15 +4,15 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Роль збірних шин в сучасних електричних системах</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1749192471087"></script>
-		<script type="module" crossorigin="" src="./js/slider.min.js?v=1749192471087"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/slider.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/news-single.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/textcontent.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/navigation.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/breadcrumbs.min.css?v=1749192471087">
-		<link rel="stylesheet" crossorigin="" href="./css/newscard.min.css?v=1749192471087">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1749450692976"></script>
+		<script type="module" crossorigin="" src="./js/slider.min.js?v=1749450692976"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/slider.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/news-single.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/textcontent.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/navigation.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/breadcrumbs.min.css?v=1749450692976">
+		<link rel="stylesheet" crossorigin="" href="./css/newscard.min.css?v=1749450692976">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -82,7 +82,7 @@
 					</div>
 					<div class="header__actions">
 						<div data-fls-dynamic=".menu__body, 991.98, 0" class="header__actions-row">
-							<a href="#" class="action-link action-link--search">
+							<a data-fls-popup-link="search" href="#" class="action-link action-link--search">
 								<svg style="width: 26px;" class="action-link__icon action-link__icon--search">
 									<use xlink:href="./assets/img/spritemap.svg#sprite-search"></use>
 								</svg>
@@ -320,7 +320,14 @@
 										</div>
 										<div class="offer-form__input">
 											<label class="offer-form__label">Оберіть моделі *</label>
-											<select name="form[model]" data-fls-select="" multiple data-fls-select-checkbox="">
+											<select name="form[model]" data-fls-select="" data-fls-select-scroll="" multiple data-fls-select-checkbox="">
+												<option value="1">HBC-PC120</option>
+												<option value="2">HBC-B120 ES/EH</option>
+												<option value="3">HBC-B120 ES/EH</option>
+												<option value="4">HBC-B120 ES/EH</option>
+												<option value="5">HBC-B120 ES/EH</option>
+												<option value="6">HBC-B120 ES/EH</option>
+												<option value="7">HBC-B120 ES/EH</option>
 												<option value="1">HBC-PC120</option>
 												<option value="2">HBC-B120 ES/EH</option>
 												<option value="3">HBC-B120 ES/EH</option>
@@ -444,6 +451,96 @@
 				</div>
 			</footer>
 		</div>
+		<div data-fls-popup="search" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper popup__search">
+				<form data-fls-corner="" data-fls-popup-body="" class="popup__body popup__search-body --corner --corner-top-left-bottom-right">
+					<input autocomplete="off" type="text" name="form[search]" placeholder="Введіть текст" class="input">
+					<span class="--corner-line --corner-line-top-left"></span>
+					<span class="--corner-line --corner-line-bottom-right"></span>
+				</form>
+			</div>
+		</div>
+		<div data-fls-popup="offer" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<form data-fls-corner="" data-fls-popup-body="" class="popup__body popup-form --corner --corner-top-left-bottom-right">
+					<button data-fls-popup-close="" class="popup__close">
+						<svg style="width: 16px; height: 16px;">
+							<use xlink:href="./assets/img/spritemap.svg#sprite-close"></use>
+						</svg>
+					</button>
+					<div class="popup-form__icon">
+						<svg>
+							<use xlink:href="./assets/img/spritemap.svg#sprite-sertificate"></use>
+						</svg>
+					</div>
+					<div class="popup-form__title">Отримайте персональну пропозицію</div>
+					<div class="popup-form__text">
+						Заповніть форму і з вами зв’яжеться наш менеджер для уточнення деталей, після чого ми підготуємо персональну пропозицію саме під ваші потреби
+					</div>
+					<div class="popup-form__fields">
+						<div class="popup-form__input">
+							<label class="popup-form__label">Ім’я *</label>
+							<input data-fls-input="" type="text" name="form[username]" data-error="Введіть щонайменше 2 символи" placeholder="Ваше ім’я" class="input">
+						</div>
+						<div class="popup-form__input">
+							<label class="popup-form__label">Прізвище *</label>
+							<input data-fls-input="" type="text" name="form[surname]" data-error="Введіть щонайменше 2 символи" placeholder="Ваше прізвище" class="input">
+						</div>
+						<div class="popup-form__input">
+							<label class="popup-form__label">Телефон *</label>
+							<input data-fls-input="" data-fls-input-mask="+38(999) 999-9999" type="text" name="form[phone]" data-error="Введіть щонайменше 2 символи" placeholder="+38 (___) ___ __ __" class="input">
+						</div>
+						<button class="popup-form__submit button button--red">Надіслати</button>
+					</div>
+					<span class="--corner-line --corner-line-top-left"></span>
+					<span class="--corner-line --corner-line-bottom-right"></span>
+				</form>
+			</div>
+		</div>
+		<div data-fls-popup="ups" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<form data-fls-corner="" data-fls-popup-body="" class="popup__body popup-form popup-form--status --corner --corner-top-left-bottom-right">
+					<button data-fls-popup-close="" class="popup__close">
+						<svg style="width: 16px; height: 16px;">
+							<use xlink:href="./assets/img/spritemap.svg#sprite-close"></use>
+						</svg>
+					</button>
+					<div class="popup-form__icon">
+						<svg>
+							<use xlink:href="./assets/img/spritemap.svg#sprite-unhappy"></use>
+						</svg>
+					</div>
+					<div class="popup-form__title">Упс...</div>
+					<div class="popup-form__text">Щось пішло не так, перевірте правильність введеної інформації</div>
+					<a href="#" class="popup-form__button button button--red">Добре</a>
+					<span class="--corner-line --corner-line-top-left"></span>
+					<span class="--corner-line --corner-line-bottom-right"></span>
+				</form>
+			</div>
+		</div>
+		<div data-fls-popup="success" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<form data-fls-corner="" data-fls-popup-body="" class="popup__body popup-form popup-form--status --corner --corner-top-left-bottom-right">
+					<button data-fls-popup-close="" class="popup__close">
+						<svg style="width: 16px; height: 16px;">
+							<use xlink:href="./assets/img/spritemap.svg#sprite-close"></use>
+						</svg>
+					</button>
+					<div class="popup-form__icon">
+						<svg>
+							<use xlink:href="./assets/img/spritemap.svg#sprite-happy"></use>
+						</svg>
+					</div>
+					<div class="popup-form__title">Дякуємо!</div>
+					<div class="popup-form__text">
+						Ми отримали ваші контактні дані. Наш менеджер зв’яжеться з Вами у робочу годину.
+					</div>
+					<a href="#" class="popup-form__button button button--red">Добре</a>
+					<span class="--corner-line --corner-line-top-left"></span>
+					<span class="--corner-line --corner-line-bottom-right"></span>
+				</form>
+			</div>
+		</div>
 		<ul id="fls-dev-panel">
 			<li>
 				<a href="services.html">services</a>
@@ -480,6 +577,27 @@
 			</li>
 			<li>
 				<a href="about.html">about</a>
+			</li>
+			<li>
+				<a href="HBC-PC120-EH.html">HBC-PC120-EH</a>
+			</li>
+			<li>
+				<a href="HBC-CP160-EH.html">HBC-CP160-EH</a>
+			</li>
+			<li>
+				<a href="HBC-CP.CNC200.html">HBC-CP.CNC200</a>
+			</li>
+			<li>
+				<a href="HBC-B160-EH.html">HBC-B160-EH</a>
+			</li>
+			<li>
+				<a href="HBC-B120-EH.html">HBC-B120-EH</a>
+			</li>
+			<li>
+				<a href="HBC-A160-EH.html">HBC-A160-EH</a>
+			</li>
+			<li>
+				<a href="HBC-A120-EH.html">HBC-A120-EH</a>
 			</li>
 			<li>
 				<a href="404.html">404</a>
