@@ -26,7 +26,7 @@
   position: absolute;
   background-color: #d71920;
   width: 3.375rem;
-  height: 0.09375rem;
+  height: 0.125rem;
   transform: rotate(-45deg);
 }
 .feature__icon {
@@ -61,7 +61,7 @@
 }
 .feature--1 .feature__inner::after {
   bottom: 1.125rem;
-  right: -0.46875rem;
+  right: -0.5rem;
 }
 .feature--1 .feature__diamond {
   display: block;
@@ -72,12 +72,12 @@
 }
 .feature--2 .feature__inner::before {
   bottom: 1.125rem;
-  left: -0.46875rem;
+  left: -0.5rem;
   transform: rotate(45deg);
 }
 .feature--2 .feature__inner::after {
   bottom: 1.125rem;
-  right: -0.46875rem;
+  right: -0.5rem;
 }
 .feature--2 .feature__diamond {
   display: block;
@@ -100,7 +100,7 @@
 }
 .feature--4 .feature__inner::before {
   top: 1.125rem;
-  right: -0.46875rem;
+  right: -0.5rem;
   transform: rotate(45deg);
 }
 .feature--4 .feature__inner::after {
@@ -112,12 +112,12 @@
 }
 .feature--5 .feature__inner::before {
   top: 1.125rem;
-  right: -0.46875rem;
+  right: -0.5rem;
   transform: rotate(45deg);
 }
 .feature--5 .feature__inner::after {
   top: 1.125rem;
-  left: -0.46875rem;
+  left: -0.5rem;
 }
 
 .feature--6 .feature__inner {
@@ -126,7 +126,7 @@
 .feature--6 .feature__inner::before {
   content: "";
   top: 1.125rem;
-  left: -0.46875rem;
+  left: -0.5rem;
 }
 .feature--6 .feature__inner::after {
   display: none;
@@ -140,6 +140,7 @@
   }
   .features__title {
     text-align: center;
+    max-width: none;
   }
   .features__grid {
     grid-template-columns: repeat(2, 1fr);
@@ -180,7 +181,7 @@
     bottom: auto;
     top: 1rem;
     left: auto;
-    right: -0.78125rem;
+    right: -0.8125rem;
   }
   .feature--3 .feature__inner::after {
     display: block;
@@ -210,7 +211,7 @@
     clip-path: polygon(1.5625rem 0, 100% 0, 100% 100%, 1.5625rem 100%, 0 calc(100% - 1.5625rem), 0 1.5625rem);
   }
   .feature--5 .feature__inner::before {
-    top: 0.9375rem;
+    top: 0.96875rem;
     right: -0.75rem;
   }
   .feature--5 .feature__inner::after {
@@ -221,7 +222,7 @@
   }
   .feature--6 .feature__inner::before {
     top: 1rem;
-    left: -0.8125rem;
+    left: -0.78125rem;
   }
   .feature--6 .feature__inner {
     clip-path: polygon(1.5625rem 0, 100% 0, 100% 100%, 0 100%, 0 1.5625rem);

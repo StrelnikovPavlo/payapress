@@ -25,7 +25,6 @@
   position: relative;
   background-image: url("../assets/img/bg-red.webp");
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -139,23 +138,23 @@
   padding-top: 0;
 }
 .item-accordion .--corner-line {
+  height: 0.125rem;
   background-color: #d8d8d8;
   transition: background-color 0.1s ease 0s;
 }
 @media (max-width: 61.99875em) {
-  .page {
-    background-size: 200%;
-  }
-  .item-accordion .--corner-line {
-    height: 0.09375rem;
-  }
   .item-accordion .--corner-line-top-left {
     left: -0.90625rem;
     top: 0.875rem;
   }
   .item-accordion .--corner-line-bottom-right {
-    right: -0.9375rem;
+    right: -0.90625rem;
     bottom: 0.875rem;
+  }
+}
+@media (max-width: 47.99875em) {
+  .page {
+    background-image: url("../assets/img/bg-red-mobile.webp");
   }
 }
 @media (max-width: 22.5em) {

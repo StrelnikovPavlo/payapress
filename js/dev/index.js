@@ -1,4 +1,5 @@
 import { g as getDigFormat, u as uniqArray } from "./app.min.js";
+import "./form.min.js";
 import "./slider.min.js";
 import "./aboutblock.min.js";
 /* empty css                */

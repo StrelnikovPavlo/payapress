@@ -1,4 +1,5 @@
 import { d as dataMediaQueries, b as slideToggle, s as slideUp } from "./app.min.js";
+import "./form.min.js";
 /* empty css                */
 /* empty css                */
 function spollers() {

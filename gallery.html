@@ -4,15 +4,17 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Навчання</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1749463306724"></script>
-		<script type="module" crossorigin="" src="./js/gallery.min2.js?v=1749463306724"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1749463306724">
-		<link rel="stylesheet" crossorigin="" href="./css/gallery.min2.css?v=1749463306724">
-		<link rel="stylesheet" crossorigin="" href="./css/gallery.min.css?v=1749463306724">
-		<link rel="stylesheet" crossorigin="" href="./css/textcontent.min.css?v=1749463306724">
-		<link rel="stylesheet" crossorigin="" href="./css/pagination.min.css?v=1749463306724">
-		<link rel="stylesheet" crossorigin="" href="./css/navigation.min.css?v=1749463306724">
-		<link rel="stylesheet" crossorigin="" href="./css/breadcrumbs.min.css?v=1749463306724">
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1749795425572"></script>
+		<script type="module" crossorigin="" src="./js/form.min.js?v=1749795425572"></script>
+		<script type="module" crossorigin="" src="./js/gallery.min2.js?v=1749795425572"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1749795425572">
+		<link rel="stylesheet" crossorigin="" href="./css/form.min.css?v=1749795425572">
+		<link rel="stylesheet" crossorigin="" href="./css/gallery.min2.css?v=1749795425572">
+		<link rel="stylesheet" crossorigin="" href="./css/gallery.min.css?v=1749795425572">
+		<link rel="stylesheet" crossorigin="" href="./css/textcontent.min.css?v=1749795425572">
+		<link rel="stylesheet" crossorigin="" href="./css/pagination.min.css?v=1749795425572">
+		<link rel="stylesheet" crossorigin="" href="./css/navigation.min.css?v=1749795425572">
+		<link rel="stylesheet" crossorigin="" href="./css/breadcrumbs.min.css?v=1749795425572">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -137,36 +139,36 @@
 						<div data-fls-gallery="" class="gallery__body">
 							<div class="gallery__items">
 								<a href="./assets/img/gallery/01.webp" class="gallery__item">
-									<img alt="" src="./assets/img/gallery/01.webp">
+									<img loading="lazy" alt="" src="./assets/img/gallery/01.webp">
 								</a>
 								<a href="./assets/img/gallery/02.webp" class="gallery__item">
-									<img alt="" src="./assets/img/gallery/02.webp">
+									<img loading="lazy" alt="" src="./assets/img/gallery/02.webp">
 								</a>
 								<a href="./assets/img/gallery/03.webp" class="gallery__item gallery__item--big">
-									<img alt="" src="./assets/img/gallery/03.webp">
+									<img loading="lazy" alt="" src="./assets/img/gallery/03.webp">
 								</a>
 								<a href="./assets/img/gallery/04.webp" class="gallery__item">
-									<img alt="" src="./assets/img/gallery/04.webp">
+									<img loading="lazy" alt="" src="./assets/img/gallery/04.webp">
 								</a>
 								<a href="./assets/img/gallery/05.webp" class="gallery__item">
-									<img alt="" src="./assets/img/gallery/05.webp">
+									<img loading="lazy" alt="" src="./assets/img/gallery/05.webp">
 								</a>
 							</div>
 							<div class="gallery__items">
 								<a href="./assets/img/gallery/06.webp" class="gallery__item gallery__item--big">
-									<img alt="" src="./assets/img/gallery/06.webp">
+									<img loading="lazy" alt="" src="./assets/img/gallery/06.webp">
 								</a>
 								<a href="./assets/img/gallery/07.webp" class="gallery__item">
-									<img alt="" src="./assets/img/gallery/07.webp">
+									<img loading="lazy" alt="" src="./assets/img/gallery/07.webp">
 								</a>
 								<a href="./assets/img/gallery/08.webp" class="gallery__item">
-									<img alt="" src="./assets/img/contacts/01.webp">
+									<img loading="lazy" alt="" src="./assets/img/contacts/01.webp">
 								</a>
 								<a href="./assets/img/gallery/09.webp" class="gallery__item">
-									<img alt="" src="./assets/img/gallery/09.webp">
+									<img loading="lazy" alt="" src="./assets/img/gallery/09.webp">
 								</a>
 								<a href="./assets/img/gallery/10.webp" class="gallery__item">
-									<img alt="" src="./assets/img/gallery/10.webp">
+									<img loading="lazy" alt="" src="./assets/img/gallery/10.webp">
 								</a>
 							</div>
 							<div class="gallery__video">
@@ -215,31 +217,31 @@
 									Заповніть форму і з вами зв’яжеться наш менеджер для уточнення деталей, після чого ми підготуємо персональну пропозицію саме під ваші потреби
 								</div>
 							</div>
-							<form data-fls-form-popup="popup" class="offer-form__body">
+							<form data-fls-form-popup="success" data-fls-form="" class="offer-form__body">
 								<div class="offer-form__fields">
 									<div class="offer-form__row">
 										<div class="offer-form__input">
 											<label class="offer-form__label">Ім’я *</label>
-											<input data-fls-input="" type="text" name="form[username]" data-error="Помилка" placeholder="Ваше ім’я" class="input">
+											<input data-fls-input="" required type="text" name="form[username]" data-error="Введіть щонайменше 2 символи" placeholder="Ваше ім’я" class="input">
 										</div>
 										<div class="offer-form__input">
 											<label class="offer-form__label">Прізвище *</label>
-											<input data-fls-input="" type="text" name="form[surname]" data-error="Помилка" placeholder="Ваше прізвище" class="input">
+											<input data-fls-input="" required type="text" name="form[surname]" data-error="Введіть щонайменше 2 символи" placeholder="Ваше прізвище" class="input">
 										</div>
 									</div>
 									<div class="offer-form__row">
 										<div class="offer-form__input">
 											<label class="offer-form__label">Телефон *</label>
-											<input data-fls-input="" data-fls-input-mask="+38(999) 999-9999" type="tel" name="form[phone]" placeholder="+38" data-error="Помилка" class="input">
+											<input data-fls-input="" required data-fls-input-mask="+38(999) 999-9999" type="tel" name="form[phone]" placeholder="+38" data-error="Введіть номер телефону" class="input">
 										</div>
 										<div class="offer-form__input">
 											<label class="offer-form__label">Оберіть моделі *</label>
-											<select name="form[model]" data-fls-select="" data-fls-select-scroll="" multiple data-fls-select-checkbox="">
+											<select required name="form[model]" data-fls-select="" data-fls-select-scroll="" multiple data-fls-select-checkbox="">
 												<option value="1">HBC-PC120</option>
 												<option value="2">HBC-B120 ES/EH</option>
-												<option value="3">HBC-B120 ES/EH</option>
+												<option value="3" selected>HBC-B120 ES/EH</option>
 												<option value="4">HBC-B120 ES/EH</option>
-												<option value="5">HBC-B120 ES/EH</option>
+												<option value="5" selected>HBC-B120 ES/EH</option>
 												<option value="6">HBC-B120 ES/EH</option>
 												<option value="7">HBC-B120 ES/EH</option>
 												<option value="1">HBC-PC120</option>
@@ -368,7 +370,14 @@
 		<div data-fls-popup="search" aria-hidden="true" class="popup">
 			<div data-fls-popup-wrapper="" class="popup__wrapper popup__search">
 				<form data-fls-corner="" data-fls-popup-body="" class="popup__body popup__search-body --corner --corner-top-left-bottom-right">
-					<input autocomplete="off" type="text" name="form[search]" placeholder="Введіть текст" class="input">
+					<div class="popup__search-line">
+						<input autocomplete="off" type="text" name="form[search]" placeholder="Введіть текст" class="input">
+						<button class="popup__search-button">
+							<svg>
+								<use xlink:href="./assets/img/spritemap.svg#sprite-search"></use>
+							</svg>
+						</button>
+					</div>
 					<span class="--corner-line --corner-line-top-left"></span>
 					<span class="--corner-line --corner-line-bottom-right"></span>
 				</form>

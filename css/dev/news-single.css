@@ -3,8 +3,7 @@
   position: relative;
   z-index: 2;
   background-image: url("../assets/img/bg-red.webp");
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -47,8 +46,13 @@
   object-fit: cover;
 }
 @media (max-width: 61.99875em) {
+  .news-single__content-img {
+    border: 0.0625rem solid #d71920;
+  }
+}
+@media (max-width: 47.99875em) {
   .page {
-    background-size: 200%;
+    background-image: url("../assets/img/bg-red-mobile.webp");
   }
 }
 @media (max-width: 22.5em) {

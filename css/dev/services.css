@@ -75,6 +75,9 @@
   .services__content {
     margin-bottom: 6.25rem;
   }
+  .services__img-2 {
+    height: 16.9375rem;
+  }
   .services__subtitle {
     column-gap: 1.5rem;
   }
@@ -103,6 +106,9 @@
   }
   .services__content {
     margin-bottom: clamp( 6.25rem , 5.6459731543625rem  +  2.6845637584vw , 8.25rem );
+  }
+  .services__img-2 {
+    height: clamp( 16.9375rem , 10.3498322147625rem  +  29.2785234899vw , 38.75rem );
   }
   .services__subtitle {
     column-gap: clamp( 1.5rem , 1.2734899328875rem  +  1.0067114094vw , 2.25rem );
@@ -148,6 +154,9 @@
   }
   .services__content {
     margin-bottom: 8.25rem;
+  }
+  .services__img-2 {
+    height: 38.75rem;
   }
   .services__subtitle {
     column-gap: 2.25rem;
