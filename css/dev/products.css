@@ -3,7 +3,6 @@
   position: relative;
   background-image: url("../assets/img/bg-red.webp");
   background-size: cover;
-  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .page::before, .page::after {
@@ -54,7 +53,7 @@
 }
 @media (max-width: 47.99875em) {
   .page {
-    background-image: url("../assets/img/bg-red-mobile.webp");
+    background-image: url("../assets/img/bg-red-mobile.webp") !important;
   }
 }
 @media (max-width: 43.75em) {
@@ -79,9 +78,9 @@
 }
 @media (max-width: 22.5em) {
   .page {
-    padding-top: 2.25rem;
+    padding-top: 4.5rem;
   }
-  .page {
+  .page > *:last-child {
     padding-bottom: 6.25rem;
   }
   .page::before, .page::after {
@@ -99,9 +98,9 @@
 }
 @media (min-width: 22.5em) and (max-width: 97em) {
   .page {
-    padding-top: clamp( 2.25rem , 2.0234899328875rem  +  1.0067114094vw , 3rem );
+    padding-top: clamp( 4.5rem , 3.57508389261875rem  +  4.110738255vw , 7.5625rem );
   }
-  .page {
+  .page > *:last-child {
     padding-bottom: clamp( 6.25rem , 4.36241610738125rem  +  8.389261745vw , 12.5rem );
   }
   .page::before, .page::after {
@@ -119,9 +118,9 @@
 }
 @media (min-width: 97em) {
   .page {
-    padding-top: 3rem;
+    padding-top: 7.5625rem;
   }
-  .page {
+  .page > *:last-child {
     padding-bottom: 12.5rem;
   }
   .page::before, .page::after {

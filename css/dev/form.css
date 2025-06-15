@@ -314,6 +314,9 @@
   font-weight: 600;
   margin-bottom: 0.75rem;
 }
+.offer-form__input [data-fls-form-error] {
+  color: #9c0006;
+}
 .offer-form__actions {
   display: flex;
   align-items: center;

@@ -31,6 +31,7 @@
   top: 50%;
   transform: translateY(-50%);
   background: url("../assets/img/white-lines.svg");
+  background-size: 100%;
   width: 100%;
   height: 3.875rem;
   z-index: -1;
