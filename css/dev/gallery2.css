@@ -38,13 +38,13 @@
 .lg-next,
 .lg-prev {
 	background-color: rgba(0, 0, 0, 0.45);
-	border-radius: 2px;
+	border-radius: 0.125rem;
 	color: #999;
 	cursor: pointer;
 	display: block;
-	font-size: 22px;
-	margin-top: -10px;
-	padding: 8px 10px 9px;
+	font-size: 1.375rem;
+	margin-top: -0.625rem;
+	padding: 0.5rem 0.625rem 0.5625rem;
 	position: absolute;
 	top: 50%;
 	z-index: 1084;
@@ -66,14 +66,14 @@
 }
 
 .lg-next {
-	right: 20px;
+	right: 1.25rem;
 }
 .lg-next:before {
 	content: "\e095";
 }
 
 .lg-prev {
-	left: 20px;
+	left: 1.25rem;
 }
 .lg-prev:after {
 	content: "\e094";
@@ -84,7 +84,7 @@
 		left: 0;
 	}
 	50% {
-		left: -30px;
+		left: -1.875rem;
 	}
 	100% {
 		left: 0;
@@ -95,7 +95,7 @@
 		left: 0;
 	}
 	50% {
-		left: -30px;
+		left: -1.875rem;
 	}
 	100% {
 		left: 0;
@@ -106,7 +106,7 @@
 		left: 0;
 	}
 	50% {
-		left: -30px;
+		left: -1.875rem;
 	}
 	100% {
 		left: 0;
@@ -117,7 +117,7 @@
 		left: 0;
 	}
 	50% {
-		left: -30px;
+		left: -1.875rem;
 	}
 	100% {
 		left: 0;
@@ -128,7 +128,7 @@
 		left: 0;
 	}
 	50% {
-		left: 30px;
+		left: 1.875rem;
 	}
 	100% {
 		left: 0;
@@ -139,7 +139,7 @@
 		left: 0;
 	}
 	50% {
-		left: 30px;
+		left: 1.875rem;
 	}
 	100% {
 		left: 0;
@@ -150,7 +150,7 @@
 		left: 0;
 	}
 	50% {
-		left: 30px;
+		left: 1.875rem;
 	}
 	100% {
 		left: 0;
@@ -161,7 +161,7 @@
 		left: 0;
 	}
 	50% {
-		left: 30px;
+		left: 1.875rem;
 	}
 	100% {
 		left: 0;
@@ -194,12 +194,12 @@
 	color: #999;
 	cursor: pointer;
 	float: right;
-	font-size: 24px;
-	height: 47px;
-	line-height: 27px;
-	padding: 10px 0;
+	font-size: 1.5rem;
+	height: 2.9375rem;
+	line-height: 1.6875rem;
+	padding: 0.625rem 0;
 	text-align: center;
-	width: 50px;
+	width: 3.125rem;
 	text-decoration: none !important;
 	outline: medium none;
 	will-change: color;
@@ -211,7 +211,7 @@
 	box-shadow: none;
 }
 .lg-toolbar .lg-icon.lg-icon-18 {
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 .lg-toolbar .lg-icon:hover {
 	color: #fff;
@@ -220,7 +220,7 @@
 	content: "\e070";
 }
 .lg-toolbar .lg-maximize {
-	font-size: 22px;
+	font-size: 1.375rem;
 }
 .lg-toolbar .lg-maximize:after {
 	content: "\e90a";
@@ -231,8 +231,8 @@
 
 .lg-sub-html {
 	color: #eee;
-	font-size: 16px;
-	padding: 10px 40px;
+	font-size: 1rem;
+	padding: 0.625rem 2.5rem;
 	text-align: center;
 	z-index: 1080;
 	opacity: 0;
@@ -242,12 +242,12 @@
 }
 .lg-sub-html h4 {
 	margin: 0;
-	font-size: 13px;
+	font-size: 0.8125rem;
 	font-weight: bold;
 }
 .lg-sub-html p {
-	font-size: 12px;
-	margin: 5px 0 0;
+	font-size: 0.75rem;
+	margin: 0.3125rem 0 0;
 }
 .lg-sub-html a {
 	color: inherit;
@@ -266,17 +266,17 @@
 }
 
 .lg-error-msg {
-	font-size: 14px;
+	font-size: 0.875rem;
 	color: #999;
 }
 
 .lg-counter {
 	color: #999;
 	display: inline-block;
-	font-size: 16px;
-	padding-left: 20px;
-	padding-top: 12px;
-	height: 47px;
+	font-size: 1rem;
+	padding-left: 1.25rem;
+	padding-top: 0.75rem;
+	height: 2.9375rem;
 	vertical-align: middle;
 }
 
@@ -339,13 +339,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 .lg-icon:focus-visible {
 	color: #fff;
-	border-radius: 3px;
-	outline: 1px dashed rgba(255, 255, 255, 0.6);
+	border-radius: 0.1875rem;
+	outline: 0.0625rem dashed rgba(255, 255, 255, 0.6);
 }
 
 .lg-toolbar .lg-icon:focus-visible {
-	border-radius: 8px;
-	outline-offset: -5px;
+	border-radius: 0.5rem;
+	outline-offset: -0.3125rem;
 }
 
 .lg-group:after {
@@ -402,23 +402,23 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 .lg-show-in .lg-hide-items .lg-prev {
 	opacity: 0;
-	-webkit-transform: translate3d(-10px, 0, 0);
-	transform: translate3d(-10px, 0, 0);
+	-webkit-transform: translate3d(-0.625rem, 0, 0);
+	transform: translate3d(-0.625rem, 0, 0);
 }
 .lg-show-in .lg-hide-items .lg-next {
 	opacity: 0;
-	-webkit-transform: translate3d(10px, 0, 0);
-	transform: translate3d(10px, 0, 0);
+	-webkit-transform: translate3d(0.625rem, 0, 0);
+	transform: translate3d(0.625rem, 0, 0);
 }
 .lg-show-in .lg-hide-items .lg-toolbar {
 	opacity: 0;
-	-webkit-transform: translate3d(0, -10px, 0);
-	transform: translate3d(0, -10px, 0);
+	-webkit-transform: translate3d(0, -0.625rem, 0);
+	transform: translate3d(0, -0.625rem, 0);
 }
 .lg-show-in .lg-hide-items.lg-hide-sub-html .lg-sub-html {
 	opacity: 0;
-	-webkit-transform: translate3d(0, 20px, 0);
-	transform: translate3d(0, 20px, 0);
+	-webkit-transform: translate3d(0, 1.25rem, 0);
+	transform: translate3d(0, 1.25rem, 0);
 }
 
 .lg-outer {
@@ -772,7 +772,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 .lg-outer .lg-item.lg-complete.lg-zoomable .lg-image.reset-transition,
 .lg-outer .lg-item.lg-complete.lg-zoomable .lg-dummy-img.reset-transition {
-	transform: scale3d(1, 1, 1) translate3d(-50%, -50%, 0px) !important;
+	transform: scale3d(1, 1, 1) translate3d(-50%, -50%, 0rem) !important;
 	max-width: none !important;
 	max-height: none !important;
 	top: 50% !important;
@@ -780,7 +780,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 .lg-outer .lg-item.lg-complete.lg-zoomable .lg-image.reset-transition-x,
 .lg-outer .lg-item.lg-complete.lg-zoomable .lg-dummy-img.reset-transition-x {
-	transform: scale3d(1, 1, 1) translate3d(-50%, 0, 0px) !important;
+	transform: scale3d(1, 1, 1) translate3d(-50%, 0, 0rem) !important;
 	top: 0 !important;
 	left: 50% !important;
 	max-width: none !important;
@@ -788,7 +788,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 .lg-outer .lg-item.lg-complete.lg-zoomable .lg-image.reset-transition-y,
 .lg-outer .lg-item.lg-complete.lg-zoomable .lg-dummy-img.reset-transition-y {
-	transform: scale3d(1, 1, 1) translate3d(0, -50%, 0px) !important;
+	transform: scale3d(1, 1, 1) translate3d(0, -50%, 0rem) !important;
 	top: 50% !important;
 	left: 0% !important;
 	max-width: none !important;
@@ -803,7 +803,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 	pointer-events: auto;
 }
 .lg-icon.lg-actual-size {
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 .lg-icon.lg-actual-size:after {
 	content: "\e033";
