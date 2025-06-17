@@ -242,7 +242,7 @@
   .feature--2 .feature__inner::before {
     display: block;
     left: auto;
-    right: -0.78125rem;
+    right: -0.75rem;
     top: 0.96875rem;
   }
   .feature--2 .feature__inner::after {
@@ -266,7 +266,7 @@
   .feature--4 .feature__inner::after {
     left: auto;
     bottom: 0.96875rem;
-    right: -0.78125rem;
+    right: -0.76875rem;
     transform: rotate(-45deg);
   }
   .feature--4 .feature__inner {

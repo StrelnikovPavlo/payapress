@@ -37,7 +37,7 @@
 .hero {
   height: 100vh;
   position: relative;
-  background: url("../assets/img/bg.avif");
+  background: url("../assets/img/bg.webp");
 }
 .hero__container {
   position: relative;
@@ -79,7 +79,7 @@
   max-width: 100%;
 }
 .hero .swiper {
-  overflow: visible;
+  overflow: visible !important;
 }
 .hero .swiper-slide {
   opacity: 0 !important;
@@ -378,13 +378,13 @@
 }
 @media (max-width: 61.99875em) and (max-width: 22.5em) {
   .hero {
-    min-height: 37.5rem;
+    min-height: 46.875rem;
   }
   .hero__slide {
     padding-top: 5.25rem;
   }
   .hero__slide {
-    min-height: 37.5rem;
+    min-height: 46.875rem;
   }
 }
 @media (max-width: 61.99875em) {
@@ -662,13 +662,13 @@
 }
 @media (max-width: 61.99875em) and (min-width: 22.5em) and (max-width: 61.9375em) {
   .hero {
-    min-height: clamp( 37.5rem , 19.67115689381875rem  +  79.2393026941vw , 68.75rem );
+    min-height: clamp( 46.875rem , 34.394809825675rem  +  55.4675118859vw , 68.75rem );
   }
   .hero__slide {
     padding-top: clamp( 5.25rem , 4.6794770206rem  +  2.5356576862vw , 6.25rem );
   }
   .hero__slide {
-    min-height: clamp( 37.5rem , 19.67115689381875rem  +  79.2393026941vw , 68.75rem );
+    min-height: clamp( 46.875rem , 34.394809825675rem  +  55.4675118859vw , 68.75rem );
   }
 }
 @media (min-width: 22.5em) and (max-width: 97em) {

@@ -698,9 +698,9 @@ body::after {
   font-weight: 600;
 }
 .popup-form__submit {
-  width: 100%;
+  width: 100% !important;
   height: 4.3125rem;
-  max-width: none;
+  max-width: none !important;
 }
 .popup-form__button {
   max-width: 6.625rem;
