@@ -19,7 +19,7 @@
   content: "";
   position: absolute;
   width: 100%;
-  height: 9.375rem;
+  height: 150px;
   bottom: 0;
   left: 0;
   background: #ffffff;
@@ -31,16 +31,16 @@
 }
 @media (max-width: 22.5em) {
   .about__content {
-    padding-bottom: 1.5rem;
+    padding-bottom: 24px;
   }
 }
 @media (min-width: 22.5em) and (max-width: 97em) {
   .about__content {
-    padding-bottom: clamp( 1.5rem , 1.2734899328875rem  +  1.0067114094vw , 2.25rem );
+    padding-bottom: clamp( 24px , 20.3758389262px  +  1.0067114094vw , 36px );
   }
 }
 @media (min-width: 97em) {
   .about__content {
-    padding-bottom: 2.25rem;
+    padding-bottom: 36px;
   }
 }
