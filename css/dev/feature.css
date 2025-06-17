@@ -112,11 +112,11 @@
 }
 .feature--5 .feature__inner::before {
   top: 1.1875rem;
-  right: -0.625rem;
+  right: -0.5625rem;
   transform: rotate(45deg);
 }
 .feature--5 .feature__inner::after {
-  top: 1.125rem;
+  top: 1.1875rem;
   left: -0.5625rem;
 }
 
@@ -125,7 +125,7 @@
 }
 .feature--6 .feature__inner::before {
   content: "";
-  top: 1.125rem;
+  top: 1.1875rem;
   left: -0.5625rem;
 }
 .feature--6 .feature__inner::after {
