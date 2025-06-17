@@ -5,49 +5,49 @@
   align-items: center;
   flex-shrink: 0;
   background-color: #fff;
-  border: 0.125rem solid #d71920;
+  border: 2px solid #d71920;
   fill: #d71920;
   transition: all 0.3s ease 0s;
 }
 .navigation-button.--disabled {
   fill: #AFAFAF;
   pointer-events: none;
-  border: 0.125rem solid #E2E2E2;
+  border: 2px solid #E2E2E2;
 }
 @media (max-width: 29.99875em) {
   .navigation-button svg {
-    width: 0.8125rem !important;
-    height: 0.625rem !important;
+    width: 13px !important;
+    height: 10px !important;
   }
 }
 @media (max-width: 22.5em) {
   .navigation-button {
-    width: 2.5rem;
+    width: 40px;
   }
   .navigation-button {
-    height: 2.5rem;
+    height: 40px;
   }
 }
 @media (min-width: 22.5em) and (max-width: 97em) {
   .navigation-button {
-    width: clamp( 2.5rem , 2.04697986576875rem  +  2.0134228188vw , 4rem );
+    width: clamp( 40px , 32.7516778523px  +  2.0134228188vw , 64px );
   }
   .navigation-button {
-    height: clamp( 2.5rem , 2.04697986576875rem  +  2.0134228188vw , 4rem );
+    height: clamp( 40px , 32.7516778523px  +  2.0134228188vw , 64px );
   }
 }
 @media (min-width: 97em) {
   .navigation-button {
-    width: 4rem;
+    width: 64px;
   }
   .navigation-button {
-    height: 4rem;
+    height: 64px;
   }
 }
 @media (any-hover: hover) {
   .navigation-button:hover {
     background-color: #d71920;
-    border: 0.125rem solid #9c0006;
+    border: 2px solid #9c0006;
     fill: #fff;
   }
 }
