@@ -157,7 +157,7 @@
   }
   .feature--1 .feature__inner::after {
     bottom: 0.875rem;
-    right: -0.65625rem;
+    right: -0.6875rem;
   }
   .feature--1 .feature__inner {
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 1.5625rem), calc(100% - 1.5625rem) 100%, 0 100%);
@@ -179,7 +179,7 @@
   }
   .feature--3 .feature__inner::before {
     bottom: auto;
-    top: 0.96875rem;
+    top: 0.9375rem;
     left: auto;
     right: -0.78125rem;
   }
@@ -243,7 +243,7 @@
     display: block;
     left: auto;
     right: -0.75rem;
-    top: 0.96875rem;
+    top: 0.9375rem;
   }
   .feature--2 .feature__inner::after {
     left: auto;
@@ -260,7 +260,7 @@
   .feature--4 .feature__inner::before {
     left: auto;
     right: -0.78125rem;
-    top: 0.96875rem;
+    top: 1rem;
     transform: rotate(45deg);
   }
   .feature--4 .feature__inner::after {

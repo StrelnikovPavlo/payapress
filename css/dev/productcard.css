@@ -89,16 +89,16 @@
 }
 @media (max-width: 61.99875em) {
   .product-card__inner .--corner-line-top-left {
-    left: -0.83125rem;
+    left: -0.8125rem;
   }
   .product-card__inner .--corner-line-top-right {
-    right: -0.770625rem;
+    right: -0.76875rem;
   }
   .product-card__inner .--corner-line-bottom-left {
-    left: -0.7625rem;
+    left: -0.76875rem;
   }
   .product-card__inner .--corner-line-bottom-right {
-    right: -0.8rem;
+    right: -0.79375rem;
   }
   .product-card__inner {
     border: 0.0625rem solid #d8d8d8;
