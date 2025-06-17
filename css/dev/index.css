@@ -11,7 +11,7 @@
 
 .--bg-img {
   position: relative;
-  background-image: url("../assets/img/bg-red.webp");
+  background-image: url("../assets/img/bg-red.svg");
   background-position: center;
   background-attachment: fixed;
   z-index: 2;
@@ -37,7 +37,7 @@
 .hero {
   height: 100vh;
   position: relative;
-  background: url("../assets/img/bg.webp");
+  background: url("../assets/img/bg.avif");
 }
 .hero__container {
   position: relative;

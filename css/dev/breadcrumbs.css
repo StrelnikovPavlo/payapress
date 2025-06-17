@@ -2,21 +2,28 @@
 .breadcrumbs {
   position: relative;
   z-index: 2;
+  --breadcrumb-divider: "/";
 }
 .breadcrumbs__list {
   display: flex;
-  flex-wrap: wrap;
   gap: 0.5rem;
-  align-items: center;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+}
+.breadcrumbs__list::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }
 .breadcrumbs__list li {
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
+  white-space: nowrap;
 }
 .breadcrumbs__list li:not(:last-child)::after {
-  content: "/";
-  display: block;
+  content: var(--breadcrumb-divider);
+  float: right;
   font-weight: 600;
   color: #d71920;
 }
@@ -90,5 +97,8 @@
 @media (any-hover: hover) {
   .breadcrumbs__link.--home:hover svg {
     fill: #9c0006;
+  }
+  .breadcrumbs__link:not(.--active):hover {
+    text-decoration: underline;
   }
 }

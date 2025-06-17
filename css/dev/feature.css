@@ -100,7 +100,7 @@
 }
 .feature--4 .feature__inner::before {
   top: 1.125rem;
-  right: -0.5rem;
+  right: -0.5625rem;
   transform: rotate(45deg);
 }
 .feature--4 .feature__inner::after {
@@ -111,13 +111,13 @@
   clip-path: polygon(2.3125rem 0, calc(100% - 2.3125rem) 0, 100% 2.3125rem, 100% 100%, 0 100%, 0 2.3125rem);
 }
 .feature--5 .feature__inner::before {
-  top: 1.125rem;
-  right: -0.5rem;
+  top: 1.1875rem;
+  right: -0.625rem;
   transform: rotate(45deg);
 }
 .feature--5 .feature__inner::after {
   top: 1.125rem;
-  left: -0.5rem;
+  left: -0.5625rem;
 }
 
 .feature--6 .feature__inner {
@@ -126,7 +126,7 @@
 .feature--6 .feature__inner::before {
   content: "";
   top: 1.125rem;
-  left: -0.5rem;
+  left: -0.5625rem;
 }
 .feature--6 .feature__inner::after {
   display: none;
@@ -185,8 +185,8 @@
   }
   .feature--3 .feature__inner::after {
     display: block;
-    bottom: 0.875rem;
-    right: -0.65625rem;
+    bottom: 0.9375rem;
+    right: -0.75rem;
   }
   .feature--3 .feature__inner {
     clip-path: polygon(0 0, calc(100% - 1.5625rem) 0, 100% 1.5625rem, 100% calc(100% - 1.5625rem), calc(100% - 1.5625rem) 100%, 0 100%);
@@ -212,7 +212,7 @@
   }
   .feature--5 .feature__inner::before {
     top: 0.96875rem;
-    right: -0.75rem;
+    right: -0.78125rem;
   }
   .feature--5 .feature__inner::after {
     display: none;
@@ -290,7 +290,8 @@
   }
   .feature--6 .feature__inner::before {
     left: auto;
-    right: -0.8125rem;
+    right: -0.71875rem;
+    top: 0.9375rem;
     transform: rotate(45deg);
   }
   .feature--6 .feature__inner {
